@@ -1,0 +1,41 @@
+{
+  "id": "mod-microservices-architecture",
+  "slug": "module-microservices-architecture",
+  "title": "微服务架构与Spring Cloud",
+  "subtitle": "面向Java后端和架构入门者",
+  "description": "面向Java后端和架构入门学习者的微服务拆分服务注册发现配置中心OpenFeignGatewaySentinel链路追踪分布式事务统一鉴权与部署实战训练。",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "微服务",
+    "Spring Cloud",
+    "Nacos",
+    "Gateway",
+    "OpenFeign",
+    "Sentinel",
+    "分布式事务",
+    "后端架构"
+  ],
+  "estimatedHours": 190,
+  "difficulty": "advanced",
+  "updatedAt": "2026-07-03T00:00:00.000Z",
+  "coverEmoji": "🧰",
+  "repoUrl": "https://github.com/openskill-galaxy/module-microservices-architecture",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 14,
+    "lessons": 182,
+    "knowledgePoints": 735,
+    "questions": 3700,
+    "cases": 260,
+    "exams": 100,
+    "routes": 35,
+    "glossary": 360,
+    "faqs": 210,
+    "tags": 116
+  }
+}

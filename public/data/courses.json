@@ -1,0 +1,520 @@
+[
+  {
+    "id": "ms-course-01",
+    "order": 1,
+    "slug": "MS入门",
+    "title": "微服务架构入门与演进路线",
+    "description": "微服务定义、与单体对比、学习路线。",
+    "estimatedHours": 4,
+    "difficulty": "easy",
+    "tags": [
+      "微服务架构入门与演进路线"
+    ],
+    "lessonIds": [
+      "ms-lesson-001",
+      "ms-lesson-002",
+      "ms-lesson-003",
+      "ms-lesson-004",
+      "ms-lesson-005",
+      "ms-lesson-006",
+      "ms-lesson-007",
+      "ms-lesson-008",
+      "ms-lesson-009",
+      "ms-lesson-010",
+      "ms-lesson-011",
+      "ms-lesson-012",
+      "ms-lesson-013"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-02",
+    "order": 2,
+    "slug": "拆分边界",
+    "title": "单体架构拆分与服务边界设计",
+    "description": "拆分原则、服务边界、DDD入门、限界上下文。",
+    "estimatedHours": 10,
+    "difficulty": "medium",
+    "tags": [
+      "单体架构拆分与服务边界设计"
+    ],
+    "lessonIds": [
+      "ms-lesson-014",
+      "ms-lesson-015",
+      "ms-lesson-016",
+      "ms-lesson-017",
+      "ms-lesson-018",
+      "ms-lesson-019",
+      "ms-lesson-020",
+      "ms-lesson-021",
+      "ms-lesson-022",
+      "ms-lesson-023",
+      "ms-lesson-024",
+      "ms-lesson-025",
+      "ms-lesson-026"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-03",
+    "order": 3,
+    "slug": "SpringCloud生态",
+    "title": "Spring Cloud生态基础",
+    "description": "Spring Cloud组件、版本、项目结构。",
+    "estimatedHours": 6,
+    "difficulty": "medium",
+    "tags": [
+      "Spring Cloud生态基础"
+    ],
+    "lessonIds": [
+      "ms-lesson-027",
+      "ms-lesson-028",
+      "ms-lesson-029",
+      "ms-lesson-030",
+      "ms-lesson-031",
+      "ms-lesson-032",
+      "ms-lesson-033",
+      "ms-lesson-034",
+      "ms-lesson-035",
+      "ms-lesson-036",
+      "ms-lesson-037",
+      "ms-lesson-038",
+      "ms-lesson-039"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-04",
+    "order": 4,
+    "slug": "注册发现",
+    "title": "服务注册与发现：Nacos / Eureka",
+    "description": "注册中心原理、Nacos安装、服务注册发现。",
+    "estimatedHours": 10,
+    "difficulty": "medium",
+    "tags": [
+      "服务注册与发现：Nacos / Eureka"
+    ],
+    "lessonIds": [
+      "ms-lesson-040",
+      "ms-lesson-041",
+      "ms-lesson-042",
+      "ms-lesson-043",
+      "ms-lesson-044",
+      "ms-lesson-045",
+      "ms-lesson-046",
+      "ms-lesson-047",
+      "ms-lesson-048",
+      "ms-lesson-049",
+      "ms-lesson-050",
+      "ms-lesson-051",
+      "ms-lesson-052"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-05",
+    "order": 5,
+    "slug": "配置中心",
+    "title": "配置中心与多环境配置",
+    "description": "Nacos配置中心、配置热更新、多环境切换。",
+    "estimatedHours": 8,
+    "difficulty": "hard",
+    "tags": [
+      "配置中心与多环境配置"
+    ],
+    "lessonIds": [
+      "ms-lesson-053",
+      "ms-lesson-054",
+      "ms-lesson-055",
+      "ms-lesson-056",
+      "ms-lesson-057",
+      "ms-lesson-058",
+      "ms-lesson-059",
+      "ms-lesson-060",
+      "ms-lesson-061",
+      "ms-lesson-062",
+      "ms-lesson-063",
+      "ms-lesson-064",
+      "ms-lesson-065"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-06",
+    "order": 6,
+    "slug": "服务调用",
+    "title": "服务调用：OpenFeign与REST",
+    "description": "OpenFeign声明式调用、超时、重试、日志。",
+    "estimatedHours": 8,
+    "difficulty": "hard",
+    "tags": [
+      "服务调用：OpenFeign与REST"
+    ],
+    "lessonIds": [
+      "ms-lesson-066",
+      "ms-lesson-067",
+      "ms-lesson-068",
+      "ms-lesson-069",
+      "ms-lesson-070",
+      "ms-lesson-071",
+      "ms-lesson-072",
+      "ms-lesson-073",
+      "ms-lesson-074",
+      "ms-lesson-075",
+      "ms-lesson-076",
+      "ms-lesson-077",
+      "ms-lesson-078"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-07",
+    "order": 7,
+    "slug": "负载均衡",
+    "title": "负载均衡与服务容错",
+    "description": "Ribbon/LoadBalancer、轮询权重、容错机制。",
+    "estimatedHours": 8,
+    "difficulty": "hard",
+    "tags": [
+      "负载均衡与服务容错"
+    ],
+    "lessonIds": [
+      "ms-lesson-079",
+      "ms-lesson-080",
+      "ms-lesson-081",
+      "ms-lesson-082",
+      "ms-lesson-083",
+      "ms-lesson-084",
+      "ms-lesson-085",
+      "ms-lesson-086",
+      "ms-lesson-087",
+      "ms-lesson-088",
+      "ms-lesson-089",
+      "ms-lesson-090",
+      "ms-lesson-091"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-08",
+    "order": 8,
+    "slug": "API网关",
+    "title": "API网关：Spring Cloud Gateway",
+    "description": "Gateway路由、断言工厂、过滤器链、鉴权。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "API网关：Spring Cloud Gateway"
+    ],
+    "lessonIds": [
+      "ms-lesson-092",
+      "ms-lesson-093",
+      "ms-lesson-094",
+      "ms-lesson-095",
+      "ms-lesson-096",
+      "ms-lesson-097",
+      "ms-lesson-098",
+      "ms-lesson-099",
+      "ms-lesson-100",
+      "ms-lesson-101",
+      "ms-lesson-102",
+      "ms-lesson-103",
+      "ms-lesson-104"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-09",
+    "order": 9,
+    "slug": "熔断限流",
+    "title": "熔断、限流与降级：Sentinel",
+    "description": "Sentinel流控、熔断降级、热点、系统规则。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "熔断、限流与降级：Sentinel"
+    ],
+    "lessonIds": [
+      "ms-lesson-105",
+      "ms-lesson-106",
+      "ms-lesson-107",
+      "ms-lesson-108",
+      "ms-lesson-109",
+      "ms-lesson-110",
+      "ms-lesson-111",
+      "ms-lesson-112",
+      "ms-lesson-113",
+      "ms-lesson-114",
+      "ms-lesson-115",
+      "ms-lesson-116",
+      "ms-lesson-117"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-10",
+    "order": 10,
+    "slug": "链路追踪",
+    "title": "链路追踪、日志与可观测性",
+    "description": "TraceId传播、Zipkin/SkyWalking、ELK。",
+    "estimatedHours": 8,
+    "difficulty": "hard",
+    "tags": [
+      "链路追踪、日志与可观测性"
+    ],
+    "lessonIds": [
+      "ms-lesson-118",
+      "ms-lesson-119",
+      "ms-lesson-120",
+      "ms-lesson-121",
+      "ms-lesson-122",
+      "ms-lesson-123",
+      "ms-lesson-124",
+      "ms-lesson-125",
+      "ms-lesson-126",
+      "ms-lesson-127",
+      "ms-lesson-128",
+      "ms-lesson-129",
+      "ms-lesson-130"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-11",
+    "order": 11,
+    "slug": "分布式事务",
+    "title": "分布式事务：Seata与最终一致性",
+    "description": "Seata AT/TCC/Saga模式、XA、消息一致性。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "分布式事务：Seata与最终一致性"
+    ],
+    "lessonIds": [
+      "ms-lesson-131",
+      "ms-lesson-132",
+      "ms-lesson-133",
+      "ms-lesson-134",
+      "ms-lesson-135",
+      "ms-lesson-136",
+      "ms-lesson-137",
+      "ms-lesson-138",
+      "ms-lesson-139",
+      "ms-lesson-140",
+      "ms-lesson-141",
+      "ms-lesson-142",
+      "ms-lesson-143"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-12",
+    "order": 12,
+    "slug": "认证授权",
+    "title": "认证授权、JWT与统一鉴权",
+    "description": "JWT令牌、OAuth2入门、Gateway统一鉴权。",
+    "estimatedHours": 8,
+    "difficulty": "hard",
+    "tags": [
+      "认证授权、JWT与统一鉴权"
+    ],
+    "lessonIds": [
+      "ms-lesson-144",
+      "ms-lesson-145",
+      "ms-lesson-146",
+      "ms-lesson-147",
+      "ms-lesson-148",
+      "ms-lesson-149",
+      "ms-lesson-150",
+      "ms-lesson-151",
+      "ms-lesson-152",
+      "ms-lesson-153",
+      "ms-lesson-154",
+      "ms-lesson-155",
+      "ms-lesson-156"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-13",
+    "order": 13,
+    "slug": "容器化部署",
+    "title": "Docker、Kubernetes与微服务部署",
+    "description": "Docker镜像、K8s部署、灰度发布、健康检查。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "Docker、Kubernetes与微服务部署"
+    ],
+    "lessonIds": [
+      "ms-lesson-157",
+      "ms-lesson-158",
+      "ms-lesson-159",
+      "ms-lesson-160",
+      "ms-lesson-161",
+      "ms-lesson-162",
+      "ms-lesson-163",
+      "ms-lesson-164",
+      "ms-lesson-165",
+      "ms-lesson-166",
+      "ms-lesson-167",
+      "ms-lesson-168",
+      "ms-lesson-169"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ms-course-14",
+    "order": 14,
+    "slug": "MS项目面试",
+    "title": "微服务综合项目、面试与架构训练",
+    "description": "完整项目整合、面试题、架构演进。",
+    "estimatedHours": 10,
+    "difficulty": "hard",
+    "tags": [
+      "微服务综合项目、面试与架构训练"
+    ],
+    "lessonIds": [
+      "ms-lesson-170",
+      "ms-lesson-171",
+      "ms-lesson-172",
+      "ms-lesson-173",
+      "ms-lesson-174",
+      "ms-lesson-175",
+      "ms-lesson-176",
+      "ms-lesson-177",
+      "ms-lesson-178",
+      "ms-lesson-179",
+      "ms-lesson-180",
+      "ms-lesson-181",
+      "ms-lesson-182"
+    ],
+    "totalLessons": 13,
+    "totalQuestions": 0,
+    "prerequisites": [],
+    "outcomes": [
+      "理解微服务架构",
+      "掌握Spring Cloud",
+      "能进行服务治理",
+      "完成微服务项目"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  }
+]
