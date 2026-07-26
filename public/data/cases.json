@@ -5,11 +5,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002294",
-      "ms-q-002032",
-      "ms-q-000043"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -29,11 +25,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001870",
-      "ms-q-002580",
-      "ms-q-000035"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -53,11 +45,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001356",
-      "ms-q-001589",
-      "ms-q-003050"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -77,11 +65,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000549",
-      "ms-q-002666",
-      "ms-q-001449"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -101,11 +85,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001471",
-      "ms-q-003403",
-      "ms-q-003575"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -125,11 +105,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000052",
-      "ms-q-002359",
-      "ms-q-000577"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -149,11 +125,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003416",
-      "ms-q-001162",
-      "ms-q-003111"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -173,11 +145,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001082",
-      "ms-q-001061",
-      "ms-q-000143"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -197,11 +165,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001213",
-      "ms-q-001566",
-      "ms-q-000148"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -221,11 +185,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001552",
-      "ms-q-002607",
-      "ms-q-002089"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -245,11 +205,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000939",
-      "ms-q-003686",
-      "ms-q-000708"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -269,11 +225,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002515",
-      "ms-q-002775",
-      "ms-q-000560"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -293,11 +245,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002748",
-      "ms-q-002998",
-      "ms-q-003079"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -317,11 +265,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001561",
-      "ms-q-001821",
-      "ms-q-001547"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -341,11 +285,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000126",
-      "ms-q-001713",
-      "ms-q-000194"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -365,11 +305,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001336",
-      "ms-q-000482",
-      "ms-q-000357"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -389,11 +325,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002424",
-      "ms-q-002013",
-      "ms-q-002831"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -413,11 +345,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003555",
-      "ms-q-003686",
-      "ms-q-000958"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -437,11 +365,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000694",
-      "ms-q-003137",
-      "ms-q-000719"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -461,11 +385,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001908",
-      "ms-q-002599",
-      "ms-q-000612"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -485,11 +405,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002690",
-      "ms-q-000925",
-      "ms-q-001578"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -509,11 +425,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001224",
-      "ms-q-003494",
-      "ms-q-003661"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -533,11 +445,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002228",
-      "ms-q-002125",
-      "ms-q-002346"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -557,11 +465,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000637",
-      "ms-q-002040",
-      "ms-q-002560"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -581,11 +485,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002844",
-      "ms-q-002776",
-      "ms-q-000992"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -605,11 +505,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002824",
-      "ms-q-001025",
-      "ms-q-000572"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -629,11 +525,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003176",
-      "ms-q-002591",
-      "ms-q-001303"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -653,11 +545,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002073",
-      "ms-q-000343",
-      "ms-q-002863"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -677,11 +565,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001527",
-      "ms-q-001861",
-      "ms-q-003129"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -701,11 +585,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003025",
-      "ms-q-001258",
-      "ms-q-000361"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -725,11 +605,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003288",
-      "ms-q-000260",
-      "ms-q-003263"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -749,11 +625,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000948",
-      "ms-q-001806",
-      "ms-q-001744"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -773,11 +645,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000946",
-      "ms-q-002156",
-      "ms-q-003694"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -797,11 +665,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000382",
-      "ms-q-003238",
-      "ms-q-002152"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -821,11 +685,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002797",
-      "ms-q-002035",
-      "ms-q-000048"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -845,11 +705,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001237",
-      "ms-q-003140",
-      "ms-q-000887"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -869,11 +725,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003285",
-      "ms-q-000498",
-      "ms-q-000292"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -893,11 +745,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001387",
-      "ms-q-002852",
-      "ms-q-000438"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -917,11 +765,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003126",
-      "ms-q-003049",
-      "ms-q-001510"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -941,11 +785,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001168",
-      "ms-q-003693",
-      "ms-q-001578"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -965,11 +805,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000459",
-      "ms-q-000482",
-      "ms-q-000124"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -989,11 +825,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001561",
-      "ms-q-003285",
-      "ms-q-001449"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -1013,11 +845,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002768",
-      "ms-q-002180",
-      "ms-q-003494"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -1037,11 +865,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002930",
-      "ms-q-001952",
-      "ms-q-000932"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -1061,11 +885,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003027",
-      "ms-q-003519",
-      "ms-q-001942"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -1085,11 +905,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003694",
-      "ms-q-002124",
-      "ms-q-001178"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -1109,11 +925,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003227",
-      "ms-q-002907",
-      "ms-q-002179"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -1133,11 +945,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000162",
-      "ms-q-000664",
-      "ms-q-001378"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -1157,11 +965,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002185",
-      "ms-q-002923",
-      "ms-q-001763"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -1181,11 +985,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001403",
-      "ms-q-000261",
-      "ms-q-001464"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -1205,11 +1005,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002667",
-      "ms-q-003114",
-      "ms-q-001391"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -1229,11 +1025,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001324",
-      "ms-q-001245",
-      "ms-q-000973"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -1253,11 +1045,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002663",
-      "ms-q-003185",
-      "ms-q-001690"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -1277,11 +1065,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003538",
-      "ms-q-001843",
-      "ms-q-000386"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -1301,11 +1085,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003350",
-      "ms-q-002013",
-      "ms-q-002386"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -1325,11 +1105,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002063",
-      "ms-q-003210",
-      "ms-q-000425"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -1349,11 +1125,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003118",
-      "ms-q-000060",
-      "ms-q-000795"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -1373,11 +1145,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001223",
-      "ms-q-002529",
-      "ms-q-001144"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -1397,11 +1165,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001616",
-      "ms-q-002459",
-      "ms-q-000984"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -1421,11 +1185,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002852",
-      "ms-q-003435",
-      "ms-q-003062"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -1445,11 +1205,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001235",
-      "ms-q-000385",
-      "ms-q-002917"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -1469,11 +1225,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003227",
-      "ms-q-000709",
-      "ms-q-000352"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -1493,11 +1245,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002623",
-      "ms-q-001387",
-      "ms-q-000594"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -1517,11 +1265,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000988",
-      "ms-q-003323",
-      "ms-q-002818"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -1541,11 +1285,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000124",
-      "ms-q-003677",
-      "ms-q-003218"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -1565,11 +1305,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001480",
-      "ms-q-000296",
-      "ms-q-001447"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -1589,11 +1325,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000754",
-      "ms-q-003461",
-      "ms-q-002092"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -1613,11 +1345,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000141",
-      "ms-q-002265",
-      "ms-q-000547"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -1637,11 +1365,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001302",
-      "ms-q-000218",
-      "ms-q-003490"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -1661,11 +1385,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003035",
-      "ms-q-003147",
-      "ms-q-002244"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -1685,11 +1405,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000079",
-      "ms-q-001720",
-      "ms-q-001486"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -1709,11 +1425,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000400",
-      "ms-q-001817",
-      "ms-q-001407"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -1733,11 +1445,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003501",
-      "ms-q-002568",
-      "ms-q-000379"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -1757,11 +1465,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003613",
-      "ms-q-003260",
-      "ms-q-002709"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -1781,11 +1485,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003261",
-      "ms-q-003634",
-      "ms-q-003696"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -1805,11 +1505,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-000098",
-      "ms-q-001555",
-      "ms-q-000731"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -1829,11 +1525,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001662",
-      "ms-q-000802",
-      "ms-q-001849"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -1853,11 +1545,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-001118",
-      "ms-q-003589",
-      "ms-q-000657"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -1877,11 +1565,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-002668",
-      "ms-q-003230",
-      "ms-q-001330"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -1901,11 +1585,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "easy",
     "duration": 30,
-    "relatedQuestionIds": [
-      "ms-q-003630",
-      "ms-q-000460",
-      "ms-q-000169"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -1925,11 +1605,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002464",
-      "ms-q-000454",
-      "ms-q-003186"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -1949,11 +1625,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000519",
-      "ms-q-001243",
-      "ms-q-003148"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -1973,11 +1645,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001120",
-      "ms-q-003468",
-      "ms-q-002423"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -1997,11 +1665,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000677",
-      "ms-q-003041",
-      "ms-q-002986"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -2021,11 +1685,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000405",
-      "ms-q-000760",
-      "ms-q-001620"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -2045,11 +1705,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000494",
-      "ms-q-000916",
-      "ms-q-000676"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -2069,11 +1725,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000212",
-      "ms-q-003442",
-      "ms-q-001844"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -2093,11 +1745,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002940",
-      "ms-q-000845",
-      "ms-q-000778"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -2117,11 +1765,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001345",
-      "ms-q-002635",
-      "ms-q-002040"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -2141,11 +1785,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000705",
-      "ms-q-002604",
-      "ms-q-000760"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -2165,11 +1805,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002250",
-      "ms-q-002885",
-      "ms-q-000112"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -2189,11 +1825,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000299",
-      "ms-q-003411",
-      "ms-q-003446"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -2213,11 +1845,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002861",
-      "ms-q-002039",
-      "ms-q-003330"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -2237,11 +1865,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002396",
-      "ms-q-001455",
-      "ms-q-000631"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -2261,11 +1885,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001890",
-      "ms-q-002401",
-      "ms-q-003024"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -2285,11 +1905,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003474",
-      "ms-q-000942",
-      "ms-q-002155"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -2309,11 +1925,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000621",
-      "ms-q-001748",
-      "ms-q-001604"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -2333,11 +1945,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000803",
-      "ms-q-002739",
-      "ms-q-002455"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -2357,11 +1965,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000045",
-      "ms-q-001600",
-      "ms-q-001767"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -2381,11 +1985,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003350",
-      "ms-q-002984",
-      "ms-q-001348"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -2405,11 +2005,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000462",
-      "ms-q-003544",
-      "ms-q-003026"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -2429,11 +2025,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003029",
-      "ms-q-000850",
-      "ms-q-003201"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -2453,11 +2045,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001257",
-      "ms-q-000431",
-      "ms-q-002561"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -2477,11 +2065,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001758",
-      "ms-q-003465",
-      "ms-q-003395"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -2501,11 +2085,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001253",
-      "ms-q-002372",
-      "ms-q-000671"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -2525,11 +2105,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003390",
-      "ms-q-003488",
-      "ms-q-003013"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -2549,11 +2125,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000458",
-      "ms-q-000387",
-      "ms-q-001900"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -2573,11 +2145,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001847",
-      "ms-q-000671",
-      "ms-q-000348"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -2597,11 +2165,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002435",
-      "ms-q-001838",
-      "ms-q-002563"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -2621,11 +2185,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002156",
-      "ms-q-003690",
-      "ms-q-002506"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -2645,11 +2205,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000838",
-      "ms-q-000809",
-      "ms-q-001027"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -2669,11 +2225,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002719",
-      "ms-q-000774",
-      "ms-q-000937"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -2693,11 +2245,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001785",
-      "ms-q-002638",
-      "ms-q-001834"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -2717,11 +2265,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001716",
-      "ms-q-002428",
-      "ms-q-002639"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -2741,11 +2285,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001342",
-      "ms-q-000175",
-      "ms-q-000045"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -2765,11 +2305,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003623",
-      "ms-q-001519",
-      "ms-q-002316"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -2789,11 +2325,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000111",
-      "ms-q-002688",
-      "ms-q-003437"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -2813,11 +2345,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000268",
-      "ms-q-003065",
-      "ms-q-003143"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -2837,11 +2365,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001090",
-      "ms-q-000910",
-      "ms-q-000796"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -2861,11 +2385,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003308",
-      "ms-q-003145",
-      "ms-q-001292"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -2885,11 +2405,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001322",
-      "ms-q-000725",
-      "ms-q-003007"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -2909,11 +2425,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002171",
-      "ms-q-002694",
-      "ms-q-003351"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -2933,11 +2445,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003653",
-      "ms-q-001364",
-      "ms-q-003464"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -2957,11 +2465,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002934",
-      "ms-q-003224",
-      "ms-q-000825"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -2981,11 +2485,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001981",
-      "ms-q-001697",
-      "ms-q-000653"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -3005,11 +2505,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001820",
-      "ms-q-000501",
-      "ms-q-003352"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -3029,11 +2525,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001992",
-      "ms-q-003495",
-      "ms-q-001997"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -3053,11 +2545,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001000",
-      "ms-q-002604",
-      "ms-q-001917"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -3077,11 +2565,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000007",
-      "ms-q-000831",
-      "ms-q-000942"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -3101,11 +2585,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002742",
-      "ms-q-000529",
-      "ms-q-003199"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -3125,11 +2605,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000858",
-      "ms-q-001346",
-      "ms-q-002102"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -3149,11 +2625,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000259",
-      "ms-q-000899",
-      "ms-q-000934"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -3173,11 +2645,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001501",
-      "ms-q-001912",
-      "ms-q-002825"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -3197,11 +2665,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003589",
-      "ms-q-003634",
-      "ms-q-000282"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -3221,11 +2685,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002285",
-      "ms-q-000717",
-      "ms-q-002502"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -3245,11 +2705,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001094",
-      "ms-q-000531",
-      "ms-q-000971"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -3269,11 +2725,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000742",
-      "ms-q-001966",
-      "ms-q-000612"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -3293,11 +2745,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002842",
-      "ms-q-003280",
-      "ms-q-001521"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -3317,11 +2765,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002355",
-      "ms-q-003381",
-      "ms-q-001656"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -3341,11 +2785,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000349",
-      "ms-q-003580",
-      "ms-q-002696"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -3365,11 +2805,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003566",
-      "ms-q-002213",
-      "ms-q-001410"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -3389,11 +2825,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000213",
-      "ms-q-001099",
-      "ms-q-002964"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -3413,11 +2845,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003384",
-      "ms-q-000529",
-      "ms-q-000861"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -3437,11 +2865,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002363",
-      "ms-q-003084",
-      "ms-q-000837"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -3461,11 +2885,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002008",
-      "ms-q-000963",
-      "ms-q-000140"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -3485,11 +2905,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000277",
-      "ms-q-000887",
-      "ms-q-001472"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -3509,11 +2925,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001180",
-      "ms-q-003699",
-      "ms-q-003332"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -3533,11 +2945,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002833",
-      "ms-q-002706",
-      "ms-q-000684"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -3557,11 +2965,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003570",
-      "ms-q-000256",
-      "ms-q-001584"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -3581,11 +2985,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-002114",
-      "ms-q-003682",
-      "ms-q-001013"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -3605,11 +3005,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003123",
-      "ms-q-003491",
-      "ms-q-001325"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -3629,11 +3025,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000229",
-      "ms-q-001703",
-      "ms-q-003222"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -3653,11 +3045,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000648",
-      "ms-q-002540",
-      "ms-q-002495"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -3677,11 +3065,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000926",
-      "ms-q-002806",
-      "ms-q-002159"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -3701,11 +3085,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000953",
-      "ms-q-003155",
-      "ms-q-001994"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -3725,11 +3105,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-003666",
-      "ms-q-001238",
-      "ms-q-002138"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -3749,11 +3125,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001018",
-      "ms-q-002515",
-      "ms-q-002253"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -3773,11 +3145,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-001999",
-      "ms-q-001329",
-      "ms-q-001775"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -3797,11 +3165,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000517",
-      "ms-q-003468",
-      "ms-q-001410"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -3821,11 +3185,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "medium",
     "duration": 45,
-    "relatedQuestionIds": [
-      "ms-q-000736",
-      "ms-q-000694",
-      "ms-q-000021"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -3845,11 +3205,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001135",
-      "ms-q-000263",
-      "ms-q-001518"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -3869,11 +3225,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001375",
-      "ms-q-002408",
-      "ms-q-002481"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -3893,11 +3245,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001472",
-      "ms-q-002763",
-      "ms-q-001438"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -3917,11 +3265,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000633",
-      "ms-q-002995",
-      "ms-q-001664"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -3941,11 +3285,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002806",
-      "ms-q-001572",
-      "ms-q-000775"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -3965,11 +3305,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000836",
-      "ms-q-000251",
-      "ms-q-002173"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -3989,11 +3325,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002896",
-      "ms-q-002663",
-      "ms-q-000290"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -4013,11 +3345,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002948",
-      "ms-q-000574",
-      "ms-q-002844"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -4037,11 +3365,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000336",
-      "ms-q-002093",
-      "ms-q-002295"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -4061,11 +3385,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003149",
-      "ms-q-003136",
-      "ms-q-002842"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -4085,11 +3405,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003045",
-      "ms-q-003530",
-      "ms-q-002506"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -4109,11 +3425,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001781",
-      "ms-q-002732",
-      "ms-q-003105"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -4133,11 +3445,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001583",
-      "ms-q-000439",
-      "ms-q-002378"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -4157,11 +3465,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003119",
-      "ms-q-002291",
-      "ms-q-001565"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -4181,11 +3485,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001540",
-      "ms-q-001065",
-      "ms-q-001294"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -4205,11 +3505,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003451",
-      "ms-q-000599",
-      "ms-q-001395"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -4229,11 +3525,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002050",
-      "ms-q-002521",
-      "ms-q-001628"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -4253,11 +3545,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000270",
-      "ms-q-002096",
-      "ms-q-001862"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -4277,11 +3565,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001961",
-      "ms-q-002638",
-      "ms-q-000109"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -4301,11 +3585,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001927",
-      "ms-q-000089",
-      "ms-q-001559"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -4325,11 +3605,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002678",
-      "ms-q-002685",
-      "ms-q-000063"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -4349,11 +3625,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002161",
-      "ms-q-000334",
-      "ms-q-002491"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -4373,11 +3645,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003385",
-      "ms-q-000847",
-      "ms-q-000163"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -4397,11 +3665,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001066",
-      "ms-q-002571",
-      "ms-q-002350"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -4421,11 +3685,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000065",
-      "ms-q-003130",
-      "ms-q-003698"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -4445,11 +3705,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001184",
-      "ms-q-001393",
-      "ms-q-000655"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -4469,11 +3725,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001685",
-      "ms-q-001405",
-      "ms-q-001747"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -4493,11 +3745,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003615",
-      "ms-q-003312",
-      "ms-q-003062"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -4517,11 +3765,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003351",
-      "ms-q-001474",
-      "ms-q-000206"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -4541,11 +3785,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001724",
-      "ms-q-002837",
-      "ms-q-001152"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -4565,11 +3805,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001332",
-      "ms-q-001078",
-      "ms-q-002228"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -4589,11 +3825,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001555",
-      "ms-q-003415",
-      "ms-q-002124"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -4613,11 +3845,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000669",
-      "ms-q-001225",
-      "ms-q-001098"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -4637,11 +3865,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002114",
-      "ms-q-002921",
-      "ms-q-003458"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -4661,11 +3885,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003578",
-      "ms-q-001828",
-      "ms-q-002682"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -4685,11 +3905,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002988",
-      "ms-q-002016",
-      "ms-q-000779"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -4709,11 +3925,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003281",
-      "ms-q-001601",
-      "ms-q-002191"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -4733,11 +3945,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002426",
-      "ms-q-000902",
-      "ms-q-002219"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -4757,11 +3965,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002644",
-      "ms-q-001615",
-      "ms-q-002290"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -4781,11 +3985,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002955",
-      "ms-q-003005",
-      "ms-q-002878"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -4805,11 +4005,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001162",
-      "ms-q-000452",
-      "ms-q-002378"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -4829,11 +4025,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003224",
-      "ms-q-000943",
-      "ms-q-001979"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -4853,11 +4045,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003163",
-      "ms-q-000325",
-      "ms-q-002818"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -4877,11 +4065,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001528",
-      "ms-q-001287",
-      "ms-q-001704"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -4901,11 +4085,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002493",
-      "ms-q-000032",
-      "ms-q-000409"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -4925,11 +4105,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000389",
-      "ms-q-003498",
-      "ms-q-001869"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -4949,11 +4125,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000295",
-      "ms-q-003027",
-      "ms-q-003568"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -4973,11 +4145,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000972",
-      "ms-q-001315",
-      "ms-q-001715"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -4997,11 +4165,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003546",
-      "ms-q-001410",
-      "ms-q-003576"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -5021,11 +4185,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002287",
-      "ms-q-003216",
-      "ms-q-002812"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -5045,11 +4205,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000815",
-      "ms-q-002790",
-      "ms-q-000372"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -5069,11 +4225,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000692",
-      "ms-q-000583",
-      "ms-q-000623"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -5093,11 +4245,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001735",
-      "ms-q-001005",
-      "ms-q-000599"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -5117,11 +4265,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002993",
-      "ms-q-002728",
-      "ms-q-001897"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -5141,11 +4285,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001214",
-      "ms-q-003460",
-      "ms-q-003255"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -5165,11 +4305,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003299",
-      "ms-q-001615",
-      "ms-q-000219"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -5189,11 +4325,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002689",
-      "ms-q-003504",
-      "ms-q-002281"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -5213,11 +4345,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000950",
-      "ms-q-000370",
-      "ms-q-001794"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -5237,11 +4365,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000861",
-      "ms-q-000846",
-      "ms-q-003598"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -5261,11 +4385,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001599",
-      "ms-q-000721",
-      "ms-q-001628"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -5285,11 +4405,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000133",
-      "ms-q-000757",
-      "ms-q-001061"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -5309,11 +4425,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000225",
-      "ms-q-002238",
-      "ms-q-001626"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -5333,11 +4445,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002355",
-      "ms-q-000056",
-      "ms-q-003040"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -5357,11 +4465,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000909",
-      "ms-q-002806",
-      "ms-q-002710"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -5381,11 +4485,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000306",
-      "ms-q-000352",
-      "ms-q-001342"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -5405,11 +4505,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001682",
-      "ms-q-001755",
-      "ms-q-001788"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -5429,11 +4525,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001642",
-      "ms-q-002197",
-      "ms-q-003514"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -5453,11 +4545,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002602",
-      "ms-q-000641",
-      "ms-q-003419"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -5477,11 +4565,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001661",
-      "ms-q-001109",
-      "ms-q-002868"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -5501,11 +4585,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000597",
-      "ms-q-001955",
-      "ms-q-000616"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -5525,11 +4605,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003567",
-      "ms-q-001851",
-      "ms-q-001007"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -5549,11 +4625,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002633",
-      "ms-q-002425",
-      "ms-q-002192"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -5573,11 +4645,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000176",
-      "ms-q-000620",
-      "ms-q-002530"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -5597,11 +4665,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002106",
-      "ms-q-003698",
-      "ms-q-001613"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -5621,11 +4685,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003088",
-      "ms-q-001444",
-      "ms-q-003491"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -5645,11 +4705,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001078",
-      "ms-q-002785",
-      "ms-q-001329"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -5669,11 +4725,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000650",
-      "ms-q-002261",
-      "ms-q-003103"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -5693,11 +4745,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001072",
-      "ms-q-002801",
-      "ms-q-002000"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -5717,11 +4765,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000277",
-      "ms-q-003562",
-      "ms-q-002342"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -5741,11 +4785,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001990",
-      "ms-q-000065",
-      "ms-q-001231"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -5765,11 +4805,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000196",
-      "ms-q-002468",
-      "ms-q-003493"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -5789,11 +4825,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001053",
-      "ms-q-000679",
-      "ms-q-001040"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
@@ -5813,11 +4845,7 @@
     "description": "通过Sentinel限流掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001628",
-      "ms-q-000119",
-      "ms-q-000918"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Sentinel限流"
     ],
@@ -5837,11 +4865,7 @@
     "description": "通过服务降级掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002628",
-      "ms-q-000332",
-      "ms-q-001514"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "服务降级"
     ],
@@ -5861,11 +4885,7 @@
     "description": "通过超时重试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002024",
-      "ms-q-000915",
-      "ms-q-002618"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "超时重试"
     ],
@@ -5885,11 +4905,7 @@
     "description": "通过TraceId追踪掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001767",
-      "ms-q-000584",
-      "ms-q-003579"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "TraceId追踪"
     ],
@@ -5909,11 +4925,7 @@
     "description": "通过分布式事务掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000706",
-      "ms-q-002093",
-      "ms-q-000146"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "分布式事务"
     ],
@@ -5933,11 +4945,7 @@
     "description": "通过订单库存一致性掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001900",
-      "ms-q-002034",
-      "ms-q-001640"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单库存一致性"
     ],
@@ -5957,11 +4965,7 @@
     "description": "通过Docker Compose部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001497",
-      "ms-q-000765",
-      "ms-q-003396"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Docker Compose部署"
     ],
@@ -5981,11 +4985,7 @@
     "description": "通过K8s部署掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003538",
-      "ms-q-002379",
-      "ms-q-000751"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "K8s部署"
     ],
@@ -6005,11 +5005,7 @@
     "description": "通过灰度发布掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003137",
-      "ms-q-000853",
-      "ms-q-001854"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "灰度发布"
     ],
@@ -6029,11 +5025,7 @@
     "description": "通过MS面试掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000820",
-      "ms-q-002086",
-      "ms-q-000036"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "MS面试"
     ],
@@ -6053,11 +5045,7 @@
     "description": "通过用户服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003120",
-      "ms-q-002455",
-      "ms-q-003165"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "用户服务拆分"
     ],
@@ -6077,11 +5065,7 @@
     "description": "通过订单服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001037",
-      "ms-q-000479",
-      "ms-q-001136"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "订单服务拆分"
     ],
@@ -6101,11 +5085,7 @@
     "description": "通过商品服务拆分掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-003491",
-      "ms-q-003371",
-      "ms-q-002465"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "商品服务拆分"
     ],
@@ -6125,11 +5105,7 @@
     "description": "通过Nacos注册掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001067",
-      "ms-q-000346",
-      "ms-q-001093"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Nacos注册"
     ],
@@ -6149,11 +5125,7 @@
     "description": "通过配置中心掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-000061",
-      "ms-q-001635",
-      "ms-q-001565"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "配置中心"
     ],
@@ -6173,11 +5145,7 @@
     "description": "通过OpenFeign调用掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001203",
-      "ms-q-000766",
-      "ms-q-000114"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "OpenFeign调用"
     ],
@@ -6197,11 +5165,7 @@
     "description": "通过Gateway路由掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-001995",
-      "ms-q-003238",
-      "ms-q-001700"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "Gateway路由"
     ],
@@ -6221,11 +5185,7 @@
     "description": "通过统一鉴权掌握MS",
     "difficulty": "hard",
     "duration": 60,
-    "relatedQuestionIds": [
-      "ms-q-002061",
-      "ms-q-002149",
-      "ms-q-000042"
-    ],
+    "relatedQuestionIds": [],
     "tags": [
       "统一鉴权"
     ],
