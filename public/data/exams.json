@@ -1,31 +1,64 @@
 [
   {
     "id": "mod-microservices-architecture-exam-1",
-    "slug": "final-exam",
-    "title": "微服务架构与Spring Cloud 核心期末综合自测",
-    "summary": "全面检验您对 微服务架构与Spring Cloud 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "微服务架构 基础入门测验",
+    "summary": "覆盖微服务核心概念、Nacos 注册发现、OpenFeign 声明式调用、Gateway 路由三要素等基础知识，适合初学者摸底自测。",
     "difficulty": "easy",
     "questionIds": [
       "mod-microservices-architecture-q-1",
       "mod-microservices-architecture-q-2",
       "mod-microservices-architecture-q-3",
       "mod-microservices-architecture-q-4",
-      "mod-microservices-architecture-q-5",
-      "mod-microservices-architecture-q-6"
+      "mod-microservices-architecture-q-15",
+      "mod-microservices-architecture-q-19",
+      "mod-microservices-architecture-q-22",
+      "mod-microservices-architecture-q-23"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 15,
     "passingScore": 60
   },
   {
     "id": "mod-microservices-architecture-exam-2",
-    "slug": "basic-exam",
-    "title": "微服务架构与Spring Cloud 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "微服务架构 进阶强化训练",
+    "summary": "聚焦 Sentinel 流控熔断、Nacos 心跳与动态配置、链路追踪、JWT 鉴权、服务拆分粒度与 K8s 部署，强化中级实战能力。",
+    "difficulty": "medium",
+    "questionIds": [
+      "mod-microservices-architecture-q-5",
+      "mod-microservices-architecture-q-6",
+      "mod-microservices-architecture-q-7",
+      "mod-microservices-architecture-q-9",
+      "mod-microservices-architecture-q-10",
+      "mod-microservices-architecture-q-11",
+      "mod-microservices-architecture-q-12",
+      "mod-microservices-architecture-q-13",
+      "mod-microservices-architecture-q-16",
+      "mod-microservices-architecture-q-18",
+      "mod-microservices-architecture-q-20"
+    ],
+    "timeLimitMinutes": 25,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-microservices-architecture-exam-3",
+    "slug": "comprehensive-exam",
+    "title": "微服务架构 综合模拟考试",
+    "summary": "从架构拆分到 Seata 分布式事务、CAP 理论、幂等设计与流控策略的全范围模拟卷，混合单选、多选、判断与简答。",
+    "difficulty": "hard",
     "questionIds": [
       "mod-microservices-architecture-q-1",
-      "mod-microservices-architecture-q-2",
-      "mod-microservices-architecture-q-3"
+      "mod-microservices-architecture-q-5",
+      "mod-microservices-architecture-q-7",
+      "mod-microservices-architecture-q-8",
+      "mod-microservices-architecture-q-10",
+      "mod-microservices-architecture-q-14",
+      "mod-microservices-architecture-q-16",
+      "mod-microservices-architecture-q-17",
+      "mod-microservices-architecture-q-18",
+      "mod-microservices-architecture-q-21",
+      "mod-microservices-architecture-q-23",
+      "mod-microservices-architecture-q-24"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60
