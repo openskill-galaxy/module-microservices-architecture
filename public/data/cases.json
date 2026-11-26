@@ -17,7 +17,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例1"
+    "slug": "用户服务拆分案例1",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-002",
@@ -37,7 +38,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例2"
+    "slug": "订单服务拆分案例2",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-003",
@@ -57,7 +59,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例3"
+    "slug": "商品服务拆分案例3",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-004",
@@ -77,7 +80,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例4"
+    "slug": "nacos注册案例4",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-005",
@@ -97,7 +101,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例5"
+    "slug": "配置中心案例5",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-006",
@@ -117,7 +122,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例6"
+    "slug": "openfeign调用案例6",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-007",
@@ -137,7 +143,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例7"
+    "slug": "gateway路由案例7",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-008",
@@ -157,7 +164,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例8"
+    "slug": "统一鉴权案例8",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-009",
@@ -177,7 +185,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例9"
+    "slug": "sentinel限流案例9",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-010",
@@ -197,7 +206,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例10"
+    "slug": "服务降级案例10",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-011",
@@ -217,7 +227,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例11"
+    "slug": "超时重试案例11",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-012",
@@ -237,7 +248,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例12"
+    "slug": "traceid追踪案例12",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-013",
@@ -257,7 +269,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例13"
+    "slug": "分布式事务案例13",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-014",
@@ -277,7 +290,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例14"
+    "slug": "订单库存一致性案例14",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-015",
@@ -297,7 +311,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例15"
+    "slug": "docker-compose部署案例15",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-016",
@@ -317,7 +332,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例16"
+    "slug": "k8s部署案例16",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-017",
@@ -337,7 +353,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例17"
+    "slug": "灰度发布案例17",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-018",
@@ -357,7 +374,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例18"
+    "slug": "ms面试案例18",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-019",
@@ -377,7 +395,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例19"
+    "slug": "用户服务拆分案例19",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-020",
@@ -397,7 +416,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例20"
+    "slug": "订单服务拆分案例20",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-021",
@@ -417,7 +437,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例21"
+    "slug": "商品服务拆分案例21",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-022",
@@ -437,7 +458,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例22"
+    "slug": "nacos注册案例22",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-023",
@@ -457,7 +479,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例23"
+    "slug": "配置中心案例23",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-024",
@@ -477,7 +500,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例24"
+    "slug": "openfeign调用案例24",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-025",
@@ -497,7 +521,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例25"
+    "slug": "gateway路由案例25",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-026",
@@ -517,7 +542,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例26"
+    "slug": "统一鉴权案例26",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-027",
@@ -537,7 +563,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例27"
+    "slug": "sentinel限流案例27",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-028",
@@ -557,7 +584,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例28"
+    "slug": "服务降级案例28",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-029",
@@ -577,7 +605,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例29"
+    "slug": "超时重试案例29",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-030",
@@ -597,7 +626,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例30"
+    "slug": "traceid追踪案例30",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-031",
@@ -617,7 +647,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例31"
+    "slug": "分布式事务案例31",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-032",
@@ -637,7 +668,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例32"
+    "slug": "订单库存一致性案例32",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-033",
@@ -657,7 +689,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例33"
+    "slug": "docker-compose部署案例33",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-034",
@@ -677,7 +710,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例34"
+    "slug": "k8s部署案例34",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-035",
@@ -697,7 +731,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例35"
+    "slug": "灰度发布案例35",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-036",
@@ -717,7 +752,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例36"
+    "slug": "ms面试案例36",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-037",
@@ -737,7 +773,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例37"
+    "slug": "用户服务拆分案例37",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-038",
@@ -757,7 +794,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例38"
+    "slug": "订单服务拆分案例38",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-039",
@@ -777,7 +815,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例39"
+    "slug": "商品服务拆分案例39",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-040",
@@ -797,7 +836,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例40"
+    "slug": "nacos注册案例40",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-041",
@@ -817,7 +857,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例41"
+    "slug": "配置中心案例41",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-042",
@@ -837,7 +878,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例42"
+    "slug": "openfeign调用案例42",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-043",
@@ -857,7 +899,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例43"
+    "slug": "gateway路由案例43",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-044",
@@ -877,7 +920,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例44"
+    "slug": "统一鉴权案例44",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-045",
@@ -897,7 +941,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例45"
+    "slug": "sentinel限流案例45",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-046",
@@ -917,7 +962,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例46"
+    "slug": "服务降级案例46",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-047",
@@ -937,7 +983,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例47"
+    "slug": "超时重试案例47",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-048",
@@ -957,7 +1004,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例48"
+    "slug": "traceid追踪案例48",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-049",
@@ -977,7 +1025,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例49"
+    "slug": "分布式事务案例49",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-050",
@@ -997,7 +1046,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例50"
+    "slug": "订单库存一致性案例50",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-051",
@@ -1017,7 +1067,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例51"
+    "slug": "docker-compose部署案例51",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-052",
@@ -1037,7 +1088,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例52"
+    "slug": "k8s部署案例52",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-053",
@@ -1057,7 +1109,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例53"
+    "slug": "灰度发布案例53",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-054",
@@ -1077,7 +1130,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例54"
+    "slug": "ms面试案例54",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-055",
@@ -1097,7 +1151,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例55"
+    "slug": "用户服务拆分案例55",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-056",
@@ -1117,7 +1172,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例56"
+    "slug": "订单服务拆分案例56",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-057",
@@ -1137,7 +1193,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例57"
+    "slug": "商品服务拆分案例57",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-058",
@@ -1157,7 +1214,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例58"
+    "slug": "nacos注册案例58",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-059",
@@ -1177,7 +1235,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例59"
+    "slug": "配置中心案例59",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-060",
@@ -1197,7 +1256,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例60"
+    "slug": "openfeign调用案例60",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-061",
@@ -1217,7 +1277,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例61"
+    "slug": "gateway路由案例61",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-062",
@@ -1237,7 +1298,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例62"
+    "slug": "统一鉴权案例62",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-063",
@@ -1257,7 +1319,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例63"
+    "slug": "sentinel限流案例63",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-064",
@@ -1277,7 +1340,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例64"
+    "slug": "服务降级案例64",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-065",
@@ -1297,7 +1361,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例65"
+    "slug": "超时重试案例65",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-066",
@@ -1317,7 +1382,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例66"
+    "slug": "traceid追踪案例66",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-067",
@@ -1337,7 +1403,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例67"
+    "slug": "分布式事务案例67",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-068",
@@ -1357,7 +1424,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例68"
+    "slug": "订单库存一致性案例68",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-069",
@@ -1377,7 +1445,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例69"
+    "slug": "docker-compose部署案例69",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-070",
@@ -1397,7 +1466,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例70"
+    "slug": "k8s部署案例70",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-071",
@@ -1417,7 +1487,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例71"
+    "slug": "灰度发布案例71",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-072",
@@ -1437,7 +1508,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例72"
+    "slug": "ms面试案例72",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-073",
@@ -1457,7 +1529,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例73"
+    "slug": "用户服务拆分案例73",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-074",
@@ -1477,7 +1550,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例74"
+    "slug": "订单服务拆分案例74",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-075",
@@ -1497,7 +1571,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例75"
+    "slug": "商品服务拆分案例75",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-076",
@@ -1517,7 +1592,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例76"
+    "slug": "nacos注册案例76",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-077",
@@ -1537,7 +1613,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例77"
+    "slug": "配置中心案例77",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-078",
@@ -1557,7 +1634,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例78"
+    "slug": "openfeign调用案例78",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-079",
@@ -1577,7 +1655,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例79"
+    "slug": "gateway路由案例79",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-080",
@@ -1597,7 +1676,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例80"
+    "slug": "统一鉴权案例80",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-081",
@@ -1617,7 +1697,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例81"
+    "slug": "sentinel限流案例81",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-082",
@@ -1637,7 +1718,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例82"
+    "slug": "服务降级案例82",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-083",
@@ -1657,7 +1739,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例83"
+    "slug": "超时重试案例83",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-084",
@@ -1677,7 +1760,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例84"
+    "slug": "traceid追踪案例84",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-085",
@@ -1697,7 +1781,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例85"
+    "slug": "分布式事务案例85",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-086",
@@ -1717,7 +1802,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例86"
+    "slug": "订单库存一致性案例86",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-087",
@@ -1737,7 +1823,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例87"
+    "slug": "docker-compose部署案例87",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-088",
@@ -1757,7 +1844,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例88"
+    "slug": "k8s部署案例88",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-089",
@@ -1777,7 +1865,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例89"
+    "slug": "灰度发布案例89",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-090",
@@ -1797,7 +1886,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例90"
+    "slug": "ms面试案例90",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-091",
@@ -1817,7 +1907,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例91"
+    "slug": "用户服务拆分案例91",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-092",
@@ -1837,7 +1928,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例92"
+    "slug": "订单服务拆分案例92",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-093",
@@ -1857,7 +1949,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例93"
+    "slug": "商品服务拆分案例93",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-094",
@@ -1877,7 +1970,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例94"
+    "slug": "nacos注册案例94",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-095",
@@ -1897,7 +1991,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例95"
+    "slug": "配置中心案例95",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-096",
@@ -1917,7 +2012,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例96"
+    "slug": "openfeign调用案例96",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-097",
@@ -1937,7 +2033,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例97"
+    "slug": "gateway路由案例97",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-098",
@@ -1957,7 +2054,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例98"
+    "slug": "统一鉴权案例98",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-099",
@@ -1977,7 +2075,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例99"
+    "slug": "sentinel限流案例99",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-100",
@@ -1997,7 +2096,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例100"
+    "slug": "服务降级案例100",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-101",
@@ -2017,7 +2117,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例101"
+    "slug": "超时重试案例101",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-102",
@@ -2037,7 +2138,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例102"
+    "slug": "traceid追踪案例102",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-103",
@@ -2057,7 +2159,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例103"
+    "slug": "分布式事务案例103",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-104",
@@ -2077,7 +2180,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例104"
+    "slug": "订单库存一致性案例104",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-105",
@@ -2097,7 +2201,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例105"
+    "slug": "docker-compose部署案例105",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-106",
@@ -2117,7 +2222,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例106"
+    "slug": "k8s部署案例106",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-107",
@@ -2137,7 +2243,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例107"
+    "slug": "灰度发布案例107",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-108",
@@ -2157,7 +2264,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例108"
+    "slug": "ms面试案例108",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-109",
@@ -2177,7 +2285,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例109"
+    "slug": "用户服务拆分案例109",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-110",
@@ -2197,7 +2306,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例110"
+    "slug": "订单服务拆分案例110",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-111",
@@ -2217,7 +2327,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例111"
+    "slug": "商品服务拆分案例111",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-112",
@@ -2237,7 +2348,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例112"
+    "slug": "nacos注册案例112",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-113",
@@ -2257,7 +2369,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例113"
+    "slug": "配置中心案例113",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-114",
@@ -2277,7 +2390,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例114"
+    "slug": "openfeign调用案例114",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-115",
@@ -2297,7 +2411,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例115"
+    "slug": "gateway路由案例115",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-116",
@@ -2317,7 +2432,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例116"
+    "slug": "统一鉴权案例116",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-117",
@@ -2337,7 +2453,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例117"
+    "slug": "sentinel限流案例117",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-118",
@@ -2357,7 +2474,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例118"
+    "slug": "服务降级案例118",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-119",
@@ -2377,7 +2495,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例119"
+    "slug": "超时重试案例119",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-120",
@@ -2397,7 +2516,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例120"
+    "slug": "traceid追踪案例120",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-121",
@@ -2417,7 +2537,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例121"
+    "slug": "分布式事务案例121",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-122",
@@ -2437,7 +2558,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例122"
+    "slug": "订单库存一致性案例122",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-123",
@@ -2457,7 +2579,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例123"
+    "slug": "docker-compose部署案例123",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-124",
@@ -2477,7 +2600,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例124"
+    "slug": "k8s部署案例124",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-125",
@@ -2497,7 +2621,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例125"
+    "slug": "灰度发布案例125",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-126",
@@ -2517,7 +2642,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例126"
+    "slug": "ms面试案例126",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-127",
@@ -2537,7 +2663,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例127"
+    "slug": "用户服务拆分案例127",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-128",
@@ -2557,7 +2684,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例128"
+    "slug": "订单服务拆分案例128",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-129",
@@ -2577,7 +2705,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例129"
+    "slug": "商品服务拆分案例129",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-130",
@@ -2597,7 +2726,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例130"
+    "slug": "nacos注册案例130",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-131",
@@ -2617,7 +2747,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例131"
+    "slug": "配置中心案例131",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-132",
@@ -2637,7 +2768,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例132"
+    "slug": "openfeign调用案例132",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-133",
@@ -2657,7 +2789,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例133"
+    "slug": "gateway路由案例133",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-134",
@@ -2677,7 +2810,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例134"
+    "slug": "统一鉴权案例134",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-135",
@@ -2697,7 +2831,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例135"
+    "slug": "sentinel限流案例135",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-136",
@@ -2717,7 +2852,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例136"
+    "slug": "服务降级案例136",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-137",
@@ -2737,7 +2873,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例137"
+    "slug": "超时重试案例137",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-138",
@@ -2757,7 +2894,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例138"
+    "slug": "traceid追踪案例138",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-139",
@@ -2777,7 +2915,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例139"
+    "slug": "分布式事务案例139",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-140",
@@ -2797,7 +2936,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例140"
+    "slug": "订单库存一致性案例140",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-141",
@@ -2817,7 +2957,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例141"
+    "slug": "docker-compose部署案例141",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-142",
@@ -2837,7 +2978,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例142"
+    "slug": "k8s部署案例142",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-143",
@@ -2857,7 +2999,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例143"
+    "slug": "灰度发布案例143",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-144",
@@ -2877,7 +3020,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例144"
+    "slug": "ms面试案例144",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-145",
@@ -2897,7 +3041,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例145"
+    "slug": "用户服务拆分案例145",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-146",
@@ -2917,7 +3062,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例146"
+    "slug": "订单服务拆分案例146",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-147",
@@ -2937,7 +3083,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例147"
+    "slug": "商品服务拆分案例147",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-148",
@@ -2957,7 +3104,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例148"
+    "slug": "nacos注册案例148",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-149",
@@ -2977,7 +3125,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例149"
+    "slug": "配置中心案例149",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-150",
@@ -2997,7 +3146,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例150"
+    "slug": "openfeign调用案例150",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-151",
@@ -3017,7 +3167,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例151"
+    "slug": "gateway路由案例151",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-152",
@@ -3037,7 +3188,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例152"
+    "slug": "统一鉴权案例152",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-153",
@@ -3057,7 +3209,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例153"
+    "slug": "sentinel限流案例153",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-154",
@@ -3077,7 +3230,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例154"
+    "slug": "服务降级案例154",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-155",
@@ -3097,7 +3251,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例155"
+    "slug": "超时重试案例155",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-156",
@@ -3117,7 +3272,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例156"
+    "slug": "traceid追踪案例156",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-157",
@@ -3137,7 +3293,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例157"
+    "slug": "分布式事务案例157",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-158",
@@ -3157,7 +3314,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例158"
+    "slug": "订单库存一致性案例158",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-159",
@@ -3177,7 +3335,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例159"
+    "slug": "docker-compose部署案例159",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-160",
@@ -3197,7 +3356,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例160"
+    "slug": "k8s部署案例160",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-161",
@@ -3217,7 +3377,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例161"
+    "slug": "灰度发布案例161",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-162",
@@ -3237,7 +3398,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例162"
+    "slug": "ms面试案例162",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-163",
@@ -3257,7 +3419,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例163"
+    "slug": "用户服务拆分案例163",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-164",
@@ -3277,7 +3440,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例164"
+    "slug": "订单服务拆分案例164",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-165",
@@ -3297,7 +3461,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例165"
+    "slug": "商品服务拆分案例165",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-166",
@@ -3317,7 +3482,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例166"
+    "slug": "nacos注册案例166",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-167",
@@ -3337,7 +3503,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例167"
+    "slug": "配置中心案例167",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-168",
@@ -3357,7 +3524,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例168"
+    "slug": "openfeign调用案例168",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-169",
@@ -3377,7 +3545,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例169"
+    "slug": "gateway路由案例169",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-170",
@@ -3397,7 +3566,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例170"
+    "slug": "统一鉴权案例170",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-171",
@@ -3417,7 +3587,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例171"
+    "slug": "sentinel限流案例171",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-172",
@@ -3437,7 +3608,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例172"
+    "slug": "服务降级案例172",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-173",
@@ -3457,7 +3629,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例173"
+    "slug": "超时重试案例173",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-174",
@@ -3477,7 +3650,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例174"
+    "slug": "traceid追踪案例174",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-175",
@@ -3497,7 +3671,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例175"
+    "slug": "分布式事务案例175",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-176",
@@ -3517,7 +3692,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例176"
+    "slug": "订单库存一致性案例176",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-177",
@@ -3537,7 +3713,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例177"
+    "slug": "docker-compose部署案例177",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-178",
@@ -3557,7 +3734,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例178"
+    "slug": "k8s部署案例178",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-179",
@@ -3577,7 +3755,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例179"
+    "slug": "灰度发布案例179",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-180",
@@ -3597,7 +3776,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例180"
+    "slug": "ms面试案例180",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-181",
@@ -3617,7 +3797,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例181"
+    "slug": "用户服务拆分案例181",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-182",
@@ -3637,7 +3818,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例182"
+    "slug": "订单服务拆分案例182",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-183",
@@ -3657,7 +3839,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例183"
+    "slug": "商品服务拆分案例183",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-184",
@@ -3677,7 +3860,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例184"
+    "slug": "nacos注册案例184",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-185",
@@ -3697,7 +3881,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例185"
+    "slug": "配置中心案例185",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-186",
@@ -3717,7 +3902,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例186"
+    "slug": "openfeign调用案例186",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-187",
@@ -3737,7 +3923,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例187"
+    "slug": "gateway路由案例187",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-188",
@@ -3757,7 +3944,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例188"
+    "slug": "统一鉴权案例188",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-189",
@@ -3777,7 +3965,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例189"
+    "slug": "sentinel限流案例189",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-190",
@@ -3797,7 +3986,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例190"
+    "slug": "服务降级案例190",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-191",
@@ -3817,7 +4007,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例191"
+    "slug": "超时重试案例191",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-192",
@@ -3837,7 +4028,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例192"
+    "slug": "traceid追踪案例192",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-193",
@@ -3857,7 +4049,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例193"
+    "slug": "分布式事务案例193",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-194",
@@ -3877,7 +4070,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例194"
+    "slug": "订单库存一致性案例194",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-195",
@@ -3897,7 +4091,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例195"
+    "slug": "docker-compose部署案例195",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-196",
@@ -3917,7 +4112,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例196"
+    "slug": "k8s部署案例196",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-197",
@@ -3937,7 +4133,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例197"
+    "slug": "灰度发布案例197",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-198",
@@ -3957,7 +4154,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例198"
+    "slug": "ms面试案例198",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-199",
@@ -3977,7 +4175,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例199"
+    "slug": "用户服务拆分案例199",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-200",
@@ -3997,7 +4196,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例200"
+    "slug": "订单服务拆分案例200",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-201",
@@ -4017,7 +4217,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例201"
+    "slug": "商品服务拆分案例201",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-202",
@@ -4037,7 +4238,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例202"
+    "slug": "nacos注册案例202",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-203",
@@ -4057,7 +4259,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例203"
+    "slug": "配置中心案例203",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-204",
@@ -4077,7 +4280,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例204"
+    "slug": "openfeign调用案例204",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-205",
@@ -4097,7 +4301,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例205"
+    "slug": "gateway路由案例205",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-206",
@@ -4117,7 +4322,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例206"
+    "slug": "统一鉴权案例206",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-207",
@@ -4137,7 +4343,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例207"
+    "slug": "sentinel限流案例207",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-208",
@@ -4157,7 +4364,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例208"
+    "slug": "服务降级案例208",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-209",
@@ -4177,7 +4385,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例209"
+    "slug": "超时重试案例209",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-210",
@@ -4197,7 +4406,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例210"
+    "slug": "traceid追踪案例210",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-211",
@@ -4217,7 +4427,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例211"
+    "slug": "分布式事务案例211",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-212",
@@ -4237,7 +4448,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例212"
+    "slug": "订单库存一致性案例212",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-213",
@@ -4257,7 +4469,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例213"
+    "slug": "docker-compose部署案例213",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-214",
@@ -4277,7 +4490,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例214"
+    "slug": "k8s部署案例214",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-215",
@@ -4297,7 +4511,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例215"
+    "slug": "灰度发布案例215",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-216",
@@ -4317,7 +4532,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例216"
+    "slug": "ms面试案例216",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-217",
@@ -4337,7 +4553,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例217"
+    "slug": "用户服务拆分案例217",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-218",
@@ -4357,7 +4574,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例218"
+    "slug": "订单服务拆分案例218",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-219",
@@ -4377,7 +4595,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例219"
+    "slug": "商品服务拆分案例219",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-220",
@@ -4397,7 +4616,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例220"
+    "slug": "nacos注册案例220",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-221",
@@ -4417,7 +4637,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例221"
+    "slug": "配置中心案例221",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-222",
@@ -4437,7 +4658,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例222"
+    "slug": "openfeign调用案例222",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-223",
@@ -4457,7 +4679,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例223"
+    "slug": "gateway路由案例223",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-224",
@@ -4477,7 +4700,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例224"
+    "slug": "统一鉴权案例224",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-225",
@@ -4497,7 +4721,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例225"
+    "slug": "sentinel限流案例225",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-226",
@@ -4517,7 +4742,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例226"
+    "slug": "服务降级案例226",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-227",
@@ -4537,7 +4763,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例227"
+    "slug": "超时重试案例227",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-228",
@@ -4557,7 +4784,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例228"
+    "slug": "traceid追踪案例228",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-229",
@@ -4577,7 +4805,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例229"
+    "slug": "分布式事务案例229",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-230",
@@ -4597,7 +4826,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例230"
+    "slug": "订单库存一致性案例230",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-231",
@@ -4617,7 +4847,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例231"
+    "slug": "docker-compose部署案例231",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-232",
@@ -4637,7 +4868,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例232"
+    "slug": "k8s部署案例232",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-233",
@@ -4657,7 +4889,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例233"
+    "slug": "灰度发布案例233",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-234",
@@ -4677,7 +4910,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例234"
+    "slug": "ms面试案例234",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-235",
@@ -4697,7 +4931,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例235"
+    "slug": "用户服务拆分案例235",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-236",
@@ -4717,7 +4952,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例236"
+    "slug": "订单服务拆分案例236",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-237",
@@ -4737,7 +4973,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例237"
+    "slug": "商品服务拆分案例237",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-238",
@@ -4757,7 +4994,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例238"
+    "slug": "nacos注册案例238",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-239",
@@ -4777,7 +5015,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例239"
+    "slug": "配置中心案例239",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-240",
@@ -4797,7 +5036,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例240"
+    "slug": "openfeign调用案例240",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-241",
@@ -4817,7 +5057,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例241"
+    "slug": "gateway路由案例241",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-242",
@@ -4837,7 +5078,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例242"
+    "slug": "统一鉴权案例242",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-243",
@@ -4857,7 +5099,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Sentinel限流掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "sentinel限流案例243"
+    "slug": "sentinel限流案例243",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-244",
@@ -4877,7 +5120,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过服务降级掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "服务降级案例244"
+    "slug": "服务降级案例244",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-245",
@@ -4897,7 +5141,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过超时重试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "超时重试案例245"
+    "slug": "超时重试案例245",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-246",
@@ -4917,7 +5162,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过TraceId追踪掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "traceid追踪案例246"
+    "slug": "traceid追踪案例246",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-247",
@@ -4937,7 +5183,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过分布式事务掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "分布式事务案例247"
+    "slug": "分布式事务案例247",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-248",
@@ -4957,7 +5204,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单库存一致性掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单库存一致性案例248"
+    "slug": "订单库存一致性案例248",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-249",
@@ -4977,7 +5225,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Docker Compose部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "docker-compose部署案例249"
+    "slug": "docker-compose部署案例249",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-250",
@@ -4997,7 +5246,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过K8s部署掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "k8s部署案例250"
+    "slug": "k8s部署案例250",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-251",
@@ -5017,7 +5267,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过灰度发布掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "灰度发布案例251"
+    "slug": "灰度发布案例251",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-252",
@@ -5037,7 +5288,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过MS面试掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "ms面试案例252"
+    "slug": "ms面试案例252",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-253",
@@ -5057,7 +5309,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过用户服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "用户服务拆分案例253"
+    "slug": "用户服务拆分案例253",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-254",
@@ -5077,7 +5330,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过订单服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "订单服务拆分案例254"
+    "slug": "订单服务拆分案例254",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-255",
@@ -5097,7 +5351,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过商品服务拆分掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "商品服务拆分案例255"
+    "slug": "商品服务拆分案例255",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-256",
@@ -5117,7 +5372,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Nacos注册掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "nacos注册案例256"
+    "slug": "nacos注册案例256",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-257",
@@ -5137,7 +5393,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过配置中心掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "配置中心案例257"
+    "slug": "配置中心案例257",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-258",
@@ -5157,7 +5414,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过OpenFeign调用掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "openfeign调用案例258"
+    "slug": "openfeign调用案例258",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-259",
@@ -5177,7 +5435,8 @@
     "backgroundMarkdown": "# 案例背景\n\n通过Gateway路由掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "gateway路由案例259"
+    "slug": "gateway路由案例259",
+    "editorialStatus": "draft"
   },
   {
     "id": "ms-case-260",
@@ -5197,6 +5456,20 @@
     "backgroundMarkdown": "# 案例背景\n\n通过统一鉴权掌握MS",
     "tasksMarkdown": "# 实战任务\n\n1. **需求**: 分析\n2. **方案**: 架构\n3. **实现**: 编码\n4. **验证**: 测试",
     "referenceMarkdown": "# 参考方案\n\n请参考具体实现步骤完成任务。",
-    "slug": "统一鉴权案例260"
+    "slug": "统一鉴权案例260",
+    "editorialStatus": "draft"
+  },
+  {
+    "id": "case-microservices-architecture-workshop",
+    "slug": "workshop-microservices-architecture",
+    "title": "区分订单已创建和通知已送达",
+    "summary": "设计能向用户显示真实状态并支持后续补发的状态转换。",
+    "difficulty": "medium",
+    "tags": [],
+    "backgroundMarkdown": "下单后系统要发送通知。数据库提交成功，通知服务临时不可用。",
+    "tasksMarkdown": "设计能向用户显示真实状态并支持后续补发的状态转换。",
+    "referenceMarkdown": "订单与待发送事件在同一事务保存。返回订单已创建、通知待发送；发送成功后标记已送达。通知消费者按事件 ID 去重，重试不能创建第二个订单。",
+    "knowledgePoints": [],
+    "estimatedMinutes": 15
   }
 ]

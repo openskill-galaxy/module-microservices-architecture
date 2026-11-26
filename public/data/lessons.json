@@ -3,66 +3,105 @@
     "id": "mod-microservices-architecture-l-1",
     "courseId": "mod-microservices-architecture-c-1",
     "order": 1,
-    "title": "微服务架构与Spring Cloud 环境依赖搭建与运行机制",
+    "title": "划分服务与数据边界",
     "slug": "lesson-1-1",
-    "summary": "了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-    "contentMarkdown": "# 微服务架构与Spring Cloud 环境依赖搭建与运行机制\n          \n## 1. 概述与背景\n在进行 `微服务架构与Spring Cloud` 的开发实践中，`微服务架构与Spring Cloud 环境依赖搭建与运行机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 微服务架构与Spring Cloud 生产实践示例\nconsole.log(\"Initializing 微服务架构与Spring Cloud engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括服务拆分、架构设计、DDD、数据库设计。",
+    "contentMarkdown": "## 例题1 · DDD\n\n微服务拆分粒度的判断中，下列哪种拆分信号说明拆得过细（出现了\"分布式单体\"或过度拆分）？\n\n- A. 每个服务都能独立发布，互不影响\n- B. 一个简单业务改动经常需要同时修改并同步发布多个服务，服务间同步调用链很长\n- C. 每个服务由一个小团队完整负责开发与运维\n- D. 服务边界与业务限界上下文吻合\n\n**参考答案**　B\n\n拆分的目的在于独立演进。若一次需求经常横跨多个服务联动修改、同步上线，说明业务边界切错了或粒度过细，得到的是\"分布式单体\"：既有分布式的复杂度（网络、事务、部署协调），又没有独立部署的收益，同时长同步调用链会放大延迟与故障概率。A、C、D 都是健康拆分的正面特征。\n\n## 例题2 · 数据库设计\n\n判断：微服务架构提倡\"每个服务拥有自己的数据库\"（Database per Service），其它服务需要数据时应调用其 API 而不是直接连它的库。\n\n**参考答案**　正确\n\n正确。数据库私有化是服务自治的基石：表结构可独立演进、技术选型可异构（如订单用 MySQL、搜索用 ES）、故障隔离。跨服务直连数据库会形成隐性耦合，一改表结构就牵连多个团队，还绕过了服务的业务规则校验。代价是跨服务查询与事务变复杂，需要 API 组合、CQRS 或最终一致性方案配合。",
+    "knowledgePoints": [
+      "ms-kp-0010"
+    ],
+    "estimatedMinutes": 10,
+    "practiceQuestionIds": [
+      "mod-microservices-architecture-q-10",
+      "mod-microservices-architecture-q-19"
+    ]
   },
   {
     "id": "mod-microservices-architecture-l-2",
     "courseId": "mod-microservices-architecture-c-1",
     "order": 2,
-    "title": "微服务架构与Spring Cloud 配置文件覆盖与属性解析",
+    "title": "注册发现与健康检查",
     "slug": "lesson-1-2",
-    "summary": "学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
-    "contentMarkdown": "# 微服务架构与Spring Cloud 配置文件覆盖与属性解析\n          \n## 1. 概述与背景\n在进行 `微服务架构与Spring Cloud` 的开发实践中，`微服务架构与Spring Cloud 配置文件覆盖与属性解析` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 微服务架构与Spring Cloud 生产实践示例\nconsole.log(\"Initializing 微服务架构与Spring Cloud engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括Nacos、服务注册发现、配置中心、健康检查、心跳。",
+    "contentMarkdown": "## 例题1 · 配置中心\n\n在 Spring Cloud Alibaba 体系中，Nacos 承担的两大核心角色是？\n\n- A. 服务注册发现中心 + 配置中心\n- B. API 网关 + 负载均衡器\n- C. 消息队列 + 分布式缓存\n- D. 链路追踪 + 日志收集\n\n**参考答案**　A\n\nNacos（Naming and Configuration Service）同时提供：1）服务注册与发现——服务启动时注册实例并定期发送心跳，消费者拉取健康实例列表；2）配置中心——集中管理配置并支持动态推送刷新（配合 @RefreshScope）。网关是 Gateway 的职责，流量防护是 Sentinel，链路追踪是 Sleuth/SkyWalking。\n\n## 例题2 · 心跳\n\n服务实例注册到 Nacos 后，Nacos 判断临时实例健康状态的默认机制是？\n\n- A. 实例定期向 Nacos 发送心跳，超时未收到心跳则标记不健康并最终剔除\n- B. Nacos 每秒对所有实例发起 TCP 全连接扫描\n- C. 由消费者调用失败后向 Nacos 举报，累计三次即剔除\n- D. 运维人员在控制台手动标记实例上下线\n\n**参考答案**　A\n\nNacos 临时实例（ephemeral=true，默认）采用客户端心跳模式：实例默认每 5 秒上报一次心跳，15 秒未收到标记为不健康，30 秒未收到则剔除实例。持久实例才由服务端主动探测（TCP/HTTP 探活）。这套机制让故障实例能被自动摘除，消费者拉取到的始终是健康列表。",
+    "knowledgePoints": [
+      "ms-kp-0003",
+      "ms-kp-0011"
+    ],
+    "estimatedMinutes": 10,
+    "practiceQuestionIds": [
+      "mod-microservices-architecture-q-2",
+      "mod-microservices-architecture-q-6"
+    ]
   },
   {
     "id": "mod-microservices-architecture-l-3",
     "courseId": "mod-microservices-architecture-c-2",
     "order": 1,
-    "title": "微服务架构与Spring Cloud API 接口规范与数据通信",
+    "title": "服务调用与超时控制",
     "slug": "lesson-2-1",
-    "summary": "掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-    "contentMarkdown": "# 微服务架构与Spring Cloud API 接口规范与数据通信\n          \n## 1. 概述与背景\n在进行 `微服务架构与Spring Cloud` 的开发实践中，`微服务架构与Spring Cloud API 接口规范与数据通信` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 微服务架构与Spring Cloud 生产实践示例\nconsole.log(\"Initializing 微服务架构与Spring Cloud engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括OpenFeign、服务调用、超时、重试、降级。",
+    "contentMarkdown": "## 例题1 · 服务调用\n\n使用 OpenFeign 进行服务间调用时，下列说法正确的是？\n\n- A. OpenFeign 是声明式 HTTP 客户端：定义带 @FeignClient 的接口即可像调本地方法一样发起远程调用\n- B. OpenFeign 基于私有二进制协议通信，无法与普通 HTTP 服务互通\n- C. 使用 OpenFeign 必须手动拼接 URL 并用 RestTemplate 发送请求\n- D. OpenFeign 不支持负载均衡，必须写死目标实例 IP\n\n**参考答案**　A\n\nOpenFeign 的核心是声明式调用：在接口上标注 @FeignClient(name = \"服务名\") 与 Spring MVC 风格的方法注解，框架通过动态代理生成 HTTP 调用实现，代码里像调用本地方法一样使用。它走标准 HTTP（B 错），无需手写 RestTemplate（C 错），且集成 Spring Cloud LoadBalancer 按服务名从注册中心解析实例并做客户端负载均衡（D 错）。\n\n## 例题2 · 降级\n\nOpenFeign 调用下游服务偶发超时，希望\"快速失败并走降级逻辑，同时保留有限重试\"，下列配置思路最合理的是？\n\n- A. 把连接与读取超时设为无限大，保证请求永不失败\n- B. 设置合理的 connectTimeout/readTimeout，结合 Sentinel 熔断降级兜底，只对幂等的查询类接口开启少量重试\n- C. 对所有写接口开启 5 次自动重试，最大化成功率\n- D. 捕获异常后 while(true) 循环重试直到成功\n\n**参考答案**　B\n\n超时必须设置且要合理（通常下游 P99 之上留余量），避免线程被长期占用；失败后由 Sentinel 熔断/降级返回兜底数据。重试只适用于幂等操作（GET 查询类），对非幂等写接口盲目重试会造成重复下单、重复扣款等数据问题（C 错）；无限超时（A）与死循环重试（D）都会在故障时耗尽资源、放大雪崩。",
+    "knowledgePoints": [
+      "ms-kp-0004"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-microservices-architecture-q-3",
+      "mod-microservices-architecture-q-14"
+    ]
   },
   {
     "id": "mod-microservices-architecture-l-4",
     "courseId": "mod-microservices-architecture-c-2",
     "order": 2,
-    "title": "微服务架构与Spring Cloud 核心控制器与数据校验机制",
+    "title": "网关路由与统一鉴权",
     "slug": "lesson-2-2",
-    "summary": "掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
-    "contentMarkdown": "# 微服务架构与Spring Cloud 核心控制器与数据校验机制\n          \n## 1. 概述与背景\n在进行 `微服务架构与Spring Cloud` 的开发实践中，`微服务架构与Spring Cloud 核心控制器与数据校验机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 微服务架构与Spring Cloud 生产实践示例\nconsole.log(\"Initializing 微服务架构与Spring Cloud engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括Gateway、网关、路由、JWT、统一鉴权、安全。",
+    "contentMarkdown": "## 例题1 · 路由\n\nSpring Cloud Gateway 中，Route（路由）的三个核心组成要素是？\n\n- A. URI（转发目标）、Predicate（断言匹配条件）、Filter（过滤器）\n- B. Controller、Service、Repository\n- C. Broker、Topic、Partition\n- D. Listener、Interceptor、Adapter\n\n**参考答案**　A\n\nGateway 的一条路由由三要素构成：URI 指定转发目标（如 lb://user-service 表示走负载均衡到注册中心的服务）；Predicate 断言决定请求是否匹配该路由（按 Path、Method、Header、时间等）；Filter 在转发前后对请求/响应加工（改写路径、加头、限流、鉴权）。B 是 MVC 分层，C 是 Kafka 概念。\n\n## 例题2 · 安全\n\n微服务统一鉴权中使用 JWT（JSON Web Token），下列说法正确的是？\n\n- A. JWT 由 Header、Payload、Signature 三段组成，服务端可用密钥验签实现无状态鉴权\n- B. JWT 的 Payload 是加密的，可以安全存放用户明文密码\n- C. JWT 签发后服务端可随时精确废止单个 token，无需任何额外设施\n- D. JWT 必须存储在服务端 Session 中才能校验\n\n**参考答案**　A\n\nJWT 三段式：Header（算法与类型）、Payload（声明 claims）、Signature（对前两段签名），均为 Base64Url 编码。资源服务只需用密钥/公钥验签即可信任其中的用户信息，天然无状态、适合网关统一鉴权。注意 Payload 只是编码不是加密，任何人可解码查看，绝不能放密码等敏感明文（B 错）；无状态也意味着难以主动废止，需引入黑名单/短有效期+刷新令牌等机制（C 错）；JWT 的意义正是摆脱服务端 Session（D 错）。",
+    "knowledgePoints": [
+      "ms-kp-0005",
+      "ms-kp-0009"
+    ],
+    "estimatedMinutes": 10,
+    "practiceQuestionIds": [
+      "mod-microservices-architecture-q-4",
+      "mod-microservices-architecture-q-9"
+    ]
   },
   {
     "id": "mod-microservices-architecture-l-5",
     "courseId": "mod-microservices-architecture-c-3",
     "order": 1,
-    "title": "微服务架构与Spring Cloud 缓存优化与垃圾回收调优",
+    "title": "流量控制与熔断",
     "slug": "lesson-3-1",
-    "summary": "定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
-    "contentMarkdown": "# 微服务架构与Spring Cloud 缓存优化与垃圾回收调优\n          \n## 1. 概述与背景\n在进行 `微服务架构与Spring Cloud` 的开发实践中，`微服务架构与Spring Cloud 缓存优化与垃圾回收调优` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 微服务架构与Spring Cloud 生产实践示例\nconsole.log(\"Initializing 微服务架构与Spring Cloud engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括Sentinel、流控、限流策略、熔断、限流。",
+    "contentMarkdown": "## 例题1 · 限流策略\n\n关于 Sentinel 的流控配置，下列说法正确的有哪些？（多选）\n\n- A. 流控阈值类型支持 QPS 和并发线程数两种统计维度\n- B. 流控效果支持快速失败、Warm Up（预热）、排队等待（匀速通过）\n- C. Warm Up 适合冷启动场景：阈值从低位逐步爬升到设定值，防止冷系统被瞬时流量打垮\n- D. 排队等待模式会直接丢弃全部超阈值请求，不做任何缓冲\n\n**参考答案**　A、B、C\n\nSentinel 流控规则由阈值类型（QPS/并发线程数）与流控效果组成。快速失败超限即拒绝；Warm Up 基于令牌桶思想让通过速率在预热时长内逐步上升，保护刚启动、缓存尚冷的系统；排队等待基于漏桶思想让请求匀速通过，超出最大等待时长的才拒绝——它是缓冲而非直接全部丢弃，D 描述的是快速失败。\n\n## 例题2 · 限流\n\nSentinel 中\"熔断降级\"与\"流量控制\"的区别，下列描述正确的是？\n\n- A. 流控是限制进入的请求速率（QPS/并发线程数）；熔断是当资源异常比例或慢调用比例超阈值时暂时切断调用，快速失败\n- B. 两者完全相同，只是控制台上的两个不同名字\n- C. 熔断用于入口限流，流控用于依赖故障隔离\n- D. 流控只能作用于网关层，微服务内部无法使用\n\n**参考答案**　A\n\n流量控制面向\"量\"：按 QPS 或并发线程数限制进入资源的流量，防止突发流量压垮系统；熔断降级面向\"质\"：统计窗口内慢调用比例或异常比例超过阈值时打开断路器，一段时间内直接快速失败，避免故障沿调用链雪崩，经半开态试探恢复。C 把两者说反了；Sentinel 可在服务内以注解/API 方式使用，不限于网关（D 错）。",
+    "knowledgePoints": [
+      "ms-kp-0006"
+    ],
+    "estimatedMinutes": 14,
+    "practiceQuestionIds": [
+      "mod-microservices-architecture-q-17",
+      "mod-microservices-architecture-q-5"
+    ]
   },
   {
     "id": "mod-microservices-architecture-l-6",
     "courseId": "mod-microservices-architecture-c-3",
     "order": 2,
-    "title": "微服务架构与Spring Cloud 可观测性日志与分布式链路监控",
+    "title": "追踪跨服务请求与事务",
     "slug": "lesson-3-2",
-    "summary": "配置全局日志收集管道，分析高负载服务下的运行指标波动。",
-    "contentMarkdown": "# 微服务架构与Spring Cloud 可观测性日志与分布式链路监控\n          \n## 1. 概述与背景\n在进行 `微服务架构与Spring Cloud` 的开发实践中，`微服务架构与Spring Cloud 可观测性日志与分布式链路监控` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 微服务架构与Spring Cloud 生产实践示例\nconsole.log(\"Initializing 微服务架构与Spring Cloud engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括链路追踪、TraceId、可观测性、Seata、分布式事务、AT模式。",
+    "contentMarkdown": "## 例题1 · 可观测性\n\n微服务链路追踪中，一次完整请求的调用链标识（TraceId）与单次调用片段标识（SpanId）的关系是？\n\n- A. 同一条链路上所有服务共享同一个 TraceId，每个调用环节生成自己的 SpanId 并记录父 Span，从而还原调用树\n- B. 每个服务都会生成新的 TraceId，通过时间戳排序还原链路\n- C. TraceId 与 SpanId 一一对应，二者始终相等\n- D. SpanId 只在网关生成一次，下游服务不再产生新的 Span\n\n**参考答案**　A\n\n分布式追踪模型（源自 Google Dapper）中：TraceId 标识一次端到端请求，随调用头（如 W3C traceparent / B3）透传给所有下游服务保持不变；每个工作单元（一次 RPC、一次 DB 访问）是一个 Span，有独立 SpanId 并记录 parentSpanId，聚合后即可还原成调用树，定位慢环节与故障点。SkyWalking、Zipkin、Jaeger 都基于此模型。\n\n## 例题2 · AT模式\n\nSeata 的 AT 模式实现分布式事务的核心原理是？\n\n- A. 一阶段执行业务 SQL 并记录前后镜像（undo log），二阶段全局提交则异步删日志，全局回滚则按镜像生成反向 SQL 补偿\n- B. 把所有分支事务的 SQL 收集到 TC 上串行执行，天然保证一致性\n- C. 基于消息队列的最终一致性，业务方必须手写确认与取消接口\n- D. 对全部参与库加全局排它锁直到所有服务执行完毕，期间任何读写都被阻塞\n\n**参考答案**　A\n\nAT（Automatic Transaction）模式对业务近乎无侵入：一阶段本地事务中执行业务 SQL，同时解析 SQL 记录数据的前镜像和后镜像到 undo_log 表并注册分支、获取全局行锁；二阶段若全局提交只需异步清理 undo_log，若回滚则用前镜像生成补偿 SQL 恢复数据。手写确认/取消接口的是 TCC 模式（C 描述的是 TCC/消息方案）。",
+    "knowledgePoints": [
+      "ms-kp-0008",
+      "ms-kp-0007"
+    ],
+    "estimatedMinutes": 14,
+    "practiceQuestionIds": [
+      "mod-microservices-architecture-q-7",
+      "mod-microservices-architecture-q-8"
+    ]
   }
 ]

@@ -1,71 +1,78 @@
 [
   {
     "id": "mod-microservices-architecture-c-1",
-    "title": "微服务架构与Spring Cloud 架构原理与初始化",
+    "title": "划分服务与数据边界 / 注册发现与健康检查",
     "slug": "course-1",
-    "summary": "深度探索 微服务架构与Spring Cloud 的设计理念、运行架构以及初始化配置引导。",
+    "summary": "例题研习覆盖服务拆分、架构设计、DDD、数据库设计、Nacos、服务注册发现、配置中心、健康检查。",
     "order": 1,
     "difficulty": "easy",
-    "estimatedHours": 64,
+    "estimatedHours": 0.3,
     "lessons": [
       "mod-microservices-architecture-l-1",
       "mod-microservices-architecture-l-2"
     ],
     "tags": [
-      "微服务",
-      "Spring Cloud",
+      "服务拆分",
+      "架构设计",
+      "DDD",
+      "数据库设计",
       "Nacos",
-      "Gateway",
-      "OpenFeign",
-      "Sentinel",
-      "分布式事务",
-      "后端架构"
+      "服务注册发现",
+      "配置中心",
+      "健康检查",
+      "心跳"
     ]
   },
   {
     "id": "mod-microservices-architecture-c-2",
-    "title": "微服务架构与Spring Cloud 核心机制与开发实战",
+    "title": "服务调用与超时控制 / 网关路由与统一鉴权",
     "slug": "course-2",
-    "summary": "掌握 微服务架构与Spring Cloud 的核心组件、API 接口调用以及本地开发调试。",
+    "summary": "例题研习覆盖OpenFeign、服务调用、超时、重试、降级、Gateway、网关、路由。",
     "order": 2,
     "difficulty": "easy",
-    "estimatedHours": 64,
+    "estimatedHours": 0.4,
     "lessons": [
       "mod-microservices-architecture-l-3",
       "mod-microservices-architecture-l-4"
     ],
     "tags": [
-      "微服务",
-      "Spring Cloud",
-      "Nacos",
-      "Gateway",
       "OpenFeign",
-      "Sentinel",
-      "分布式事务",
-      "后端架构"
+      "服务调用",
+      "超时",
+      "重试",
+      "降级",
+      "Gateway",
+      "网关",
+      "路由",
+      "JWT",
+      "统一鉴权",
+      "安全"
     ]
   },
   {
     "id": "mod-microservices-architecture-c-3",
-    "title": "微服务架构与Spring Cloud 高级优化与生产部署",
+    "title": "流量控制与熔断 / 追踪跨服务请求与事务",
     "slug": "course-3",
-    "summary": "学习如何进行系统性能监控调优、高可用集群部署与数据存储。",
+    "summary": "例题研习覆盖Sentinel、流控、限流策略、熔断、限流、链路追踪、TraceId、可观测性。",
     "order": 3,
     "difficulty": "easy",
-    "estimatedHours": 64,
+    "estimatedHours": 0.5,
     "lessons": [
       "mod-microservices-architecture-l-5",
       "mod-microservices-architecture-l-6"
     ],
     "tags": [
-      "微服务",
-      "Spring Cloud",
-      "Nacos",
-      "Gateway",
-      "OpenFeign",
       "Sentinel",
+      "流控",
+      "限流策略",
+      "熔断",
+      "限流",
+      "链路追踪",
+      "TraceId",
+      "可观测性",
+      "Seata",
       "分布式事务",
-      "后端架构"
+      "AT模式"
     ]
   }
 ]

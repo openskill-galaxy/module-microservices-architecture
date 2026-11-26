@@ -5,17 +5,36 @@
     "type": "single",
     "stem": "与单体架构相比，微服务架构最核心的特征是什么？",
     "options": [
-      { "key": "A", "text": "把应用按业务能力拆分为可独立开发、独立部署、独立扩缩容的小型服务，服务间通过轻量级通信协作" },
-      { "key": "B", "text": "把所有代码放在一个仓库中，通过多模块 Maven 工程组织" },
-      { "key": "C", "text": "必须使用容器技术运行，否则不能称为微服务" },
-      { "key": "D", "text": "所有服务共享同一个数据库，保证数据强一致" }
+      {
+        "key": "A",
+        "text": "把应用按业务能力拆分为可独立开发、独立部署、独立扩缩容的小型服务，服务间通过轻量级通信协作"
+      },
+      {
+        "key": "B",
+        "text": "把所有代码放在一个仓库中，通过多模块 Maven 工程组织"
+      },
+      {
+        "key": "C",
+        "text": "必须使用容器技术运行，否则不能称为微服务"
+      },
+      {
+        "key": "D",
+        "text": "所有服务共享同一个数据库，保证数据强一致"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "微服务的本质是按业务边界（常结合 DDD 限界上下文）拆分服务，每个服务可独立开发、测试、部署与伸缩，通过 HTTP/REST 或 RPC 等轻量协议通信。单仓库多模块仍可能是单体部署（B 错）；容器只是常见载体而非必要条件（C 错）；微服务提倡数据库按服务私有（Database per Service），共享库会造成强耦合（D 错）。",
-    "tags": ["微服务", "架构设计"],
+    "tags": [
+      "微服务",
+      "架构设计"
+    ],
     "difficulty": "easy",
     "chapter": "mod-microservices-architecture-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0001"
+    ],
     "estimated_time": 2
   },
   {
@@ -24,17 +43,38 @@
     "type": "single",
     "stem": "在 Spring Cloud Alibaba 体系中，Nacos 承担的两大核心角色是？",
     "options": [
-      { "key": "A", "text": "服务注册发现中心 + 配置中心" },
-      { "key": "B", "text": "API 网关 + 负载均衡器" },
-      { "key": "C", "text": "消息队列 + 分布式缓存" },
-      { "key": "D", "text": "链路追踪 + 日志收集" }
+      {
+        "key": "A",
+        "text": "服务注册发现中心 + 配置中心"
+      },
+      {
+        "key": "B",
+        "text": "API 网关 + 负载均衡器"
+      },
+      {
+        "key": "C",
+        "text": "消息队列 + 分布式缓存"
+      },
+      {
+        "key": "D",
+        "text": "链路追踪 + 日志收集"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "Nacos（Naming and Configuration Service）同时提供：1）服务注册与发现——服务启动时注册实例并定期发送心跳，消费者拉取健康实例列表；2）配置中心——集中管理配置并支持动态推送刷新（配合 @RefreshScope）。网关是 Gateway 的职责，流量防护是 Sentinel，链路追踪是 Sleuth/SkyWalking。",
-    "tags": ["Nacos", "服务注册发现", "配置中心"],
+    "tags": [
+      "Nacos",
+      "服务注册发现",
+      "配置中心"
+    ],
     "difficulty": "easy",
-    "chapter": "mod-microservices-architecture-c-2",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-1",
+    "knowledge_points": [
+      "ms-kp-0003",
+      "ms-kp-0011"
+    ],
     "estimated_time": 2
   },
   {
@@ -43,17 +83,36 @@
     "type": "single",
     "stem": "使用 OpenFeign 进行服务间调用时，下列说法正确的是？",
     "options": [
-      { "key": "A", "text": "OpenFeign 是声明式 HTTP 客户端：定义带 @FeignClient 的接口即可像调本地方法一样发起远程调用" },
-      { "key": "B", "text": "OpenFeign 基于私有二进制协议通信，无法与普通 HTTP 服务互通" },
-      { "key": "C", "text": "使用 OpenFeign 必须手动拼接 URL 并用 RestTemplate 发送请求" },
-      { "key": "D", "text": "OpenFeign 不支持负载均衡，必须写死目标实例 IP" }
+      {
+        "key": "A",
+        "text": "OpenFeign 是声明式 HTTP 客户端：定义带 @FeignClient 的接口即可像调本地方法一样发起远程调用"
+      },
+      {
+        "key": "B",
+        "text": "OpenFeign 基于私有二进制协议通信，无法与普通 HTTP 服务互通"
+      },
+      {
+        "key": "C",
+        "text": "使用 OpenFeign 必须手动拼接 URL 并用 RestTemplate 发送请求"
+      },
+      {
+        "key": "D",
+        "text": "OpenFeign 不支持负载均衡，必须写死目标实例 IP"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "OpenFeign 的核心是声明式调用：在接口上标注 @FeignClient(name = \"服务名\") 与 Spring MVC 风格的方法注解，框架通过动态代理生成 HTTP 调用实现，代码里像调用本地方法一样使用。它走标准 HTTP（B 错），无需手写 RestTemplate（C 错），且集成 Spring Cloud LoadBalancer 按服务名从注册中心解析实例并做客户端负载均衡（D 错）。",
-    "tags": ["OpenFeign", "服务调用"],
+    "tags": [
+      "OpenFeign",
+      "服务调用"
+    ],
     "difficulty": "easy",
-    "chapter": "mod-microservices-architecture-c-3",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-2",
+    "knowledge_points": [
+      "ms-kp-0004"
+    ],
     "estimated_time": 2
   },
   {
@@ -62,17 +121,37 @@
     "type": "single",
     "stem": "Spring Cloud Gateway 中，Route（路由）的三个核心组成要素是？",
     "options": [
-      { "key": "A", "text": "URI（转发目标）、Predicate（断言匹配条件）、Filter（过滤器）" },
-      { "key": "B", "text": "Controller、Service、Repository" },
-      { "key": "C", "text": "Broker、Topic、Partition" },
-      { "key": "D", "text": "Listener、Interceptor、Adapter" }
+      {
+        "key": "A",
+        "text": "URI（转发目标）、Predicate（断言匹配条件）、Filter（过滤器）"
+      },
+      {
+        "key": "B",
+        "text": "Controller、Service、Repository"
+      },
+      {
+        "key": "C",
+        "text": "Broker、Topic、Partition"
+      },
+      {
+        "key": "D",
+        "text": "Listener、Interceptor、Adapter"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "Gateway 的一条路由由三要素构成：URI 指定转发目标（如 lb://user-service 表示走负载均衡到注册中心的服务）；Predicate 断言决定请求是否匹配该路由（按 Path、Method、Header、时间等）；Filter 在转发前后对请求/响应加工（改写路径、加头、限流、鉴权）。B 是 MVC 分层，C 是 Kafka 概念。",
-    "tags": ["Gateway", "网关", "路由"],
+    "tags": [
+      "Gateway",
+      "网关",
+      "路由"
+    ],
     "difficulty": "easy",
-    "chapter": "mod-microservices-architecture-c-1",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-2",
+    "knowledge_points": [
+      "ms-kp-0005"
+    ],
     "estimated_time": 2
   },
   {
@@ -81,17 +160,37 @@
     "type": "single",
     "stem": "Sentinel 中\"熔断降级\"与\"流量控制\"的区别，下列描述正确的是？",
     "options": [
-      { "key": "A", "text": "流控是限制进入的请求速率（QPS/并发线程数）；熔断是当资源异常比例或慢调用比例超阈值时暂时切断调用，快速失败" },
-      { "key": "B", "text": "两者完全相同，只是控制台上的两个不同名字" },
-      { "key": "C", "text": "熔断用于入口限流，流控用于依赖故障隔离" },
-      { "key": "D", "text": "流控只能作用于网关层，微服务内部无法使用" }
+      {
+        "key": "A",
+        "text": "流控是限制进入的请求速率（QPS/并发线程数）；熔断是当资源异常比例或慢调用比例超阈值时暂时切断调用，快速失败"
+      },
+      {
+        "key": "B",
+        "text": "两者完全相同，只是控制台上的两个不同名字"
+      },
+      {
+        "key": "C",
+        "text": "熔断用于入口限流，流控用于依赖故障隔离"
+      },
+      {
+        "key": "D",
+        "text": "流控只能作用于网关层，微服务内部无法使用"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "流量控制面向\"量\"：按 QPS 或并发线程数限制进入资源的流量，防止突发流量压垮系统；熔断降级面向\"质\"：统计窗口内慢调用比例或异常比例超过阈值时打开断路器，一段时间内直接快速失败，避免故障沿调用链雪崩，经半开态试探恢复。C 把两者说反了；Sentinel 可在服务内以注解/API 方式使用，不限于网关（D 错）。",
-    "tags": ["Sentinel", "熔断", "限流"],
+    "tags": [
+      "Sentinel",
+      "熔断",
+      "限流"
+    ],
     "difficulty": "medium",
-    "chapter": "mod-microservices-architecture-c-2",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-3",
+    "knowledge_points": [
+      "ms-kp-0006"
+    ],
     "estimated_time": 3
   },
   {
@@ -100,17 +199,37 @@
     "type": "single",
     "stem": "服务实例注册到 Nacos 后，Nacos 判断临时实例健康状态的默认机制是？",
     "options": [
-      { "key": "A", "text": "实例定期向 Nacos 发送心跳，超时未收到心跳则标记不健康并最终剔除" },
-      { "key": "B", "text": "Nacos 每秒对所有实例发起 TCP 全连接扫描" },
-      { "key": "C", "text": "由消费者调用失败后向 Nacos 举报，累计三次即剔除" },
-      { "key": "D", "text": "运维人员在控制台手动标记实例上下线" }
+      {
+        "key": "A",
+        "text": "实例定期向 Nacos 发送心跳，超时未收到心跳则标记不健康并最终剔除"
+      },
+      {
+        "key": "B",
+        "text": "Nacos 每秒对所有实例发起 TCP 全连接扫描"
+      },
+      {
+        "key": "C",
+        "text": "由消费者调用失败后向 Nacos 举报，累计三次即剔除"
+      },
+      {
+        "key": "D",
+        "text": "运维人员在控制台手动标记实例上下线"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "Nacos 临时实例（ephemeral=true，默认）采用客户端心跳模式：实例默认每 5 秒上报一次心跳，15 秒未收到标记为不健康，30 秒未收到则剔除实例。持久实例才由服务端主动探测（TCP/HTTP 探活）。这套机制让故障实例能被自动摘除，消费者拉取到的始终是健康列表。",
-    "tags": ["Nacos", "健康检查", "心跳"],
+    "tags": [
+      "Nacos",
+      "健康检查",
+      "心跳"
+    ],
     "difficulty": "medium",
-    "chapter": "mod-microservices-architecture-c-3",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-1",
+    "knowledge_points": [
+      "ms-kp-0003"
+    ],
     "estimated_time": 3
   },
   {
@@ -119,17 +238,37 @@
     "type": "single",
     "stem": "微服务链路追踪中，一次完整请求的调用链标识（TraceId）与单次调用片段标识（SpanId）的关系是？",
     "options": [
-      { "key": "A", "text": "同一条链路上所有服务共享同一个 TraceId，每个调用环节生成自己的 SpanId 并记录父 Span，从而还原调用树" },
-      { "key": "B", "text": "每个服务都会生成新的 TraceId，通过时间戳排序还原链路" },
-      { "key": "C", "text": "TraceId 与 SpanId 一一对应，二者始终相等" },
-      { "key": "D", "text": "SpanId 只在网关生成一次，下游服务不再产生新的 Span" }
+      {
+        "key": "A",
+        "text": "同一条链路上所有服务共享同一个 TraceId，每个调用环节生成自己的 SpanId 并记录父 Span，从而还原调用树"
+      },
+      {
+        "key": "B",
+        "text": "每个服务都会生成新的 TraceId，通过时间戳排序还原链路"
+      },
+      {
+        "key": "C",
+        "text": "TraceId 与 SpanId 一一对应，二者始终相等"
+      },
+      {
+        "key": "D",
+        "text": "SpanId 只在网关生成一次，下游服务不再产生新的 Span"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "分布式追踪模型（源自 Google Dapper）中：TraceId 标识一次端到端请求，随调用头（如 W3C traceparent / B3）透传给所有下游服务保持不变；每个工作单元（一次 RPC、一次 DB 访问）是一个 Span，有独立 SpanId 并记录 parentSpanId，聚合后即可还原成调用树，定位慢环节与故障点。SkyWalking、Zipkin、Jaeger 都基于此模型。",
-    "tags": ["链路追踪", "TraceId", "可观测性"],
+    "tags": [
+      "链路追踪",
+      "TraceId",
+      "可观测性"
+    ],
     "difficulty": "medium",
-    "chapter": "mod-microservices-architecture-c-1",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-3",
+    "knowledge_points": [
+      "ms-kp-0008"
+    ],
     "estimated_time": 3
   },
   {
@@ -138,17 +277,37 @@
     "type": "single",
     "stem": "Seata 的 AT 模式实现分布式事务的核心原理是？",
     "options": [
-      { "key": "A", "text": "一阶段执行业务 SQL 并记录前后镜像（undo log），二阶段全局提交则异步删日志，全局回滚则按镜像生成反向 SQL 补偿" },
-      { "key": "B", "text": "把所有分支事务的 SQL 收集到 TC 上串行执行，天然保证一致性" },
-      { "key": "C", "text": "基于消息队列的最终一致性，业务方必须手写确认与取消接口" },
-      { "key": "D", "text": "对全部参与库加全局排它锁直到所有服务执行完毕，期间任何读写都被阻塞" }
+      {
+        "key": "A",
+        "text": "一阶段执行业务 SQL 并记录前后镜像（undo log），二阶段全局提交则异步删日志，全局回滚则按镜像生成反向 SQL 补偿"
+      },
+      {
+        "key": "B",
+        "text": "把所有分支事务的 SQL 收集到 TC 上串行执行，天然保证一致性"
+      },
+      {
+        "key": "C",
+        "text": "基于消息队列的最终一致性，业务方必须手写确认与取消接口"
+      },
+      {
+        "key": "D",
+        "text": "对全部参与库加全局排它锁直到所有服务执行完毕，期间任何读写都被阻塞"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "AT（Automatic Transaction）模式对业务近乎无侵入：一阶段本地事务中执行业务 SQL，同时解析 SQL 记录数据的前镜像和后镜像到 undo_log 表并注册分支、获取全局行锁；二阶段若全局提交只需异步清理 undo_log，若回滚则用前镜像生成补偿 SQL 恢复数据。手写确认/取消接口的是 TCC 模式（C 描述的是 TCC/消息方案）。",
-    "tags": ["Seata", "分布式事务", "AT模式"],
+    "tags": [
+      "Seata",
+      "分布式事务",
+      "AT模式"
+    ],
     "difficulty": "hard",
-    "chapter": "mod-microservices-architecture-c-2",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-3",
+    "knowledge_points": [
+      "ms-kp-0007"
+    ],
     "estimated_time": 4
   },
   {
@@ -157,17 +316,37 @@
     "type": "single",
     "stem": "微服务统一鉴权中使用 JWT（JSON Web Token），下列说法正确的是？",
     "options": [
-      { "key": "A", "text": "JWT 由 Header、Payload、Signature 三段组成，服务端可用密钥验签实现无状态鉴权" },
-      { "key": "B", "text": "JWT 的 Payload 是加密的，可以安全存放用户明文密码" },
-      { "key": "C", "text": "JWT 签发后服务端可随时精确废止单个 token，无需任何额外设施" },
-      { "key": "D", "text": "JWT 必须存储在服务端 Session 中才能校验" }
+      {
+        "key": "A",
+        "text": "JWT 由 Header、Payload、Signature 三段组成，服务端可用密钥验签实现无状态鉴权"
+      },
+      {
+        "key": "B",
+        "text": "JWT 的 Payload 是加密的，可以安全存放用户明文密码"
+      },
+      {
+        "key": "C",
+        "text": "JWT 签发后服务端可随时精确废止单个 token，无需任何额外设施"
+      },
+      {
+        "key": "D",
+        "text": "JWT 必须存储在服务端 Session 中才能校验"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "JWT 三段式：Header（算法与类型）、Payload（声明 claims）、Signature（对前两段签名），均为 Base64Url 编码。资源服务只需用密钥/公钥验签即可信任其中的用户信息，天然无状态、适合网关统一鉴权。注意 Payload 只是编码不是加密，任何人可解码查看，绝不能放密码等敏感明文（B 错）；无状态也意味着难以主动废止，需引入黑名单/短有效期+刷新令牌等机制（C 错）；JWT 的意义正是摆脱服务端 Session（D 错）。",
-    "tags": ["JWT", "统一鉴权", "安全"],
+    "tags": [
+      "JWT",
+      "统一鉴权",
+      "安全"
+    ],
     "difficulty": "medium",
-    "chapter": "mod-microservices-architecture-c-3",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-2",
+    "knowledge_points": [
+      "ms-kp-0009"
+    ],
     "estimated_time": 3
   },
   {
@@ -176,17 +355,37 @@
     "type": "single",
     "stem": "微服务拆分粒度的判断中，下列哪种拆分信号说明拆得过细（出现了\"分布式单体\"或过度拆分）？",
     "options": [
-      { "key": "A", "text": "每个服务都能独立发布，互不影响" },
-      { "key": "B", "text": "一个简单业务改动经常需要同时修改并同步发布多个服务，服务间同步调用链很长" },
-      { "key": "C", "text": "每个服务由一个小团队完整负责开发与运维" },
-      { "key": "D", "text": "服务边界与业务限界上下文吻合" }
+      {
+        "key": "A",
+        "text": "每个服务都能独立发布，互不影响"
+      },
+      {
+        "key": "B",
+        "text": "一个简单业务改动经常需要同时修改并同步发布多个服务，服务间同步调用链很长"
+      },
+      {
+        "key": "C",
+        "text": "每个服务由一个小团队完整负责开发与运维"
+      },
+      {
+        "key": "D",
+        "text": "服务边界与业务限界上下文吻合"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "拆分的目的在于独立演进。若一次需求经常横跨多个服务联动修改、同步上线，说明业务边界切错了或粒度过细，得到的是\"分布式单体\"：既有分布式的复杂度（网络、事务、部署协调），又没有独立部署的收益，同时长同步调用链会放大延迟与故障概率。A、C、D 都是健康拆分的正面特征。",
-    "tags": ["服务拆分", "架构设计", "DDD"],
+    "tags": [
+      "服务拆分",
+      "架构设计",
+      "DDD"
+    ],
     "difficulty": "medium",
     "chapter": "mod-microservices-architecture-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0010"
+    ],
     "estimated_time": 3
   },
   {
@@ -195,17 +394,38 @@
     "type": "single",
     "stem": "Nacos 配置中心中，应用要在配置变更后不重启即生效，Spring Cloud 侧通常需要怎么做？",
     "options": [
-      { "key": "A", "text": "在读取配置的 Bean 上添加 @RefreshScope，配置变更推送后 Bean 会被重建并注入新值" },
-      { "key": "B", "text": "必须重启整个服务，Spring 容器不支持任何形式的配置刷新" },
-      { "key": "C", "text": "把配置写死在代码常量里，由 CI 重新编译发布" },
-      { "key": "D", "text": "每次使用配置前手动调用 Nacos HTTP 接口拉取并解析" }
+      {
+        "key": "A",
+        "text": "在读取配置的 Bean 上添加 @RefreshScope，配置变更推送后 Bean 会被重建并注入新值"
+      },
+      {
+        "key": "B",
+        "text": "必须重启整个服务，Spring 容器不支持任何形式的配置刷新"
+      },
+      {
+        "key": "C",
+        "text": "把配置写死在代码常量里，由 CI 重新编译发布"
+      },
+      {
+        "key": "D",
+        "text": "每次使用配置前手动调用 Nacos HTTP 接口拉取并解析"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "Nacos 客户端与服务端保持长连接监听配置，变更时服务端推送给客户端并触发 Spring Cloud 的刷新事件；标注了 @RefreshScope 的 Bean 会被销毁并在下次使用时以新配置重建，@Value/@ConfigurationProperties 注入的属性随之更新。这实现了灰度调参、开关切换等\"配置热更新\"能力，无需重启服务。",
-    "tags": ["Nacos", "配置中心", "动态刷新"],
+    "tags": [
+      "Nacos",
+      "配置中心",
+      "动态刷新"
+    ],
     "difficulty": "medium",
     "chapter": "mod-microservices-architecture-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0003",
+      "ms-kp-0011"
+    ],
     "estimated_time": 3
   },
   {
@@ -214,17 +434,37 @@
     "type": "single",
     "stem": "关于服务雪崩效应及其防护，下列说法正确的是？",
     "options": [
-      { "key": "A", "text": "下游服务故障导致上游调用线程被大量占用阻塞，故障沿调用链逐级放大蔓延，可用超时、熔断、隔离、降级组合防护" },
-      { "key": "B", "text": "雪崩只发生在数据库层面，服务层不会互相影响" },
-      { "key": "C", "text": "只要加机器扩容就能彻底避免雪崩" },
-      { "key": "D", "text": "雪崩是注册中心宕机的专有名词" }
+      {
+        "key": "A",
+        "text": "下游服务故障导致上游调用线程被大量占用阻塞，故障沿调用链逐级放大蔓延，可用超时、熔断、隔离、降级组合防护"
+      },
+      {
+        "key": "B",
+        "text": "雪崩只发生在数据库层面，服务层不会互相影响"
+      },
+      {
+        "key": "C",
+        "text": "只要加机器扩容就能彻底避免雪崩"
+      },
+      {
+        "key": "D",
+        "text": "雪崩是注册中心宕机的专有名词"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "雪崩的典型链路：服务 C 变慢 → 调用方 B 的线程/连接被长时间占用耗尽 → B 也无法响应 → A 同样被拖垮，故障逐级放大。防护组合拳：合理的调用超时（快速释放资源）、熔断（故障时快速失败）、线程池/信号量隔离（限制单依赖资源占用）、降级兜底（返回缓存或默认值）、限流（控制入口流量）。仅扩容无法阻断这种传导机制。",
-    "tags": ["服务雪崩", "容错", "Sentinel"],
+    "tags": [
+      "服务雪崩",
+      "容错",
+      "Sentinel"
+    ],
     "difficulty": "medium",
     "chapter": "mod-microservices-architecture-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0006"
+    ],
     "estimated_time": 3
   },
   {
@@ -233,14 +473,32 @@
     "type": "single",
     "stem": "把微服务部署到 Kubernetes 时，下列哪个说法是正确的？",
     "options": [
-      { "key": "A", "text": "Deployment 声明期望的副本数与镜像版本，K8s 持续将实际状态调和到期望状态，并支持滚动更新" },
-      { "key": "B", "text": "Pod 一旦创建，IP 永久固定，可以直接写死在调用方配置里" },
-      { "key": "C", "text": "Service 的作用是存储容器镜像" },
-      { "key": "D", "text": "K8s 无法对容器做健康检查，必须依赖外部脚本重启故障容器" }
+      {
+        "key": "A",
+        "text": "Deployment 声明期望的副本数与镜像版本，K8s 持续将实际状态调和到期望状态，并支持滚动更新"
+      },
+      {
+        "key": "B",
+        "text": "Pod 一旦创建，IP 永久固定，可以直接写死在调用方配置里"
+      },
+      {
+        "key": "C",
+        "text": "Service 的作用是存储容器镜像"
+      },
+      {
+        "key": "D",
+        "text": "K8s 无法对容器做健康检查，必须依赖外部脚本重启故障容器"
+      }
     ],
-    "answer": ["A"],
+    "answer": [
+      "A"
+    ],
     "explanation": "Deployment 是声明式的：定义 replicas、镜像等期望状态，控制器不断调和（自愈、扩缩容），更新镜像时按滚动策略逐步替换 Pod 实现不停机发布。Pod 是易变的，重建后 IP 会变，因此要通过 Service 提供稳定的虚拟 IP/DNS 名做服务发现与负载均衡（B、C 错）；K8s 原生支持 liveness/readiness/startup 探针自动重启和摘流（D 错）。",
-    "tags": ["Kubernetes", "部署", "容器化"],
+    "tags": [
+      "Kubernetes",
+      "部署",
+      "容器化"
+    ],
     "difficulty": "medium",
     "chapter": "mod-microservices-architecture-c-1",
     "knowledge_points": [],
@@ -252,17 +510,38 @@
     "type": "single",
     "stem": "OpenFeign 调用下游服务偶发超时，希望\"快速失败并走降级逻辑，同时保留有限重试\"，下列配置思路最合理的是？",
     "options": [
-      { "key": "A", "text": "把连接与读取超时设为无限大，保证请求永不失败" },
-      { "key": "B", "text": "设置合理的 connectTimeout/readTimeout，结合 Sentinel 熔断降级兜底，只对幂等的查询类接口开启少量重试" },
-      { "key": "C", "text": "对所有写接口开启 5 次自动重试，最大化成功率" },
-      { "key": "D", "text": "捕获异常后 while(true) 循环重试直到成功" }
+      {
+        "key": "A",
+        "text": "把连接与读取超时设为无限大，保证请求永不失败"
+      },
+      {
+        "key": "B",
+        "text": "设置合理的 connectTimeout/readTimeout，结合 Sentinel 熔断降级兜底，只对幂等的查询类接口开启少量重试"
+      },
+      {
+        "key": "C",
+        "text": "对所有写接口开启 5 次自动重试，最大化成功率"
+      },
+      {
+        "key": "D",
+        "text": "捕获异常后 while(true) 循环重试直到成功"
+      }
     ],
-    "answer": ["B"],
+    "answer": [
+      "B"
+    ],
     "explanation": "超时必须设置且要合理（通常下游 P99 之上留余量），避免线程被长期占用；失败后由 Sentinel 熔断/降级返回兜底数据。重试只适用于幂等操作（GET 查询类），对非幂等写接口盲目重试会造成重复下单、重复扣款等数据问题（C 错）；无限超时（A）与死循环重试（D）都会在故障时耗尽资源、放大雪崩。",
-    "tags": ["OpenFeign", "超时", "重试", "降级"],
+    "tags": [
+      "OpenFeign",
+      "超时",
+      "重试",
+      "降级"
+    ],
     "difficulty": "hard",
     "chapter": "mod-microservices-architecture-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0004"
+    ],
     "estimated_time": 4
   },
   {
@@ -271,17 +550,38 @@
     "type": "multiple",
     "stem": "下列哪些属于 API 网关（如 Spring Cloud Gateway）适合承担的职责？（多选）",
     "options": [
-      { "key": "A", "text": "统一入口路由：按路径/域名把请求转发到对应微服务" },
-      { "key": "B", "text": "统一认证鉴权：校验 token 后再放行到下游服务" },
-      { "key": "C", "text": "入口限流与黑白名单等流量防护" },
-      { "key": "D", "text": "编写核心业务逻辑，如订单创建、库存扣减" }
+      {
+        "key": "A",
+        "text": "统一入口路由：按路径/域名把请求转发到对应微服务"
+      },
+      {
+        "key": "B",
+        "text": "统一认证鉴权：校验 token 后再放行到下游服务"
+      },
+      {
+        "key": "C",
+        "text": "入口限流与黑白名单等流量防护"
+      },
+      {
+        "key": "D",
+        "text": "编写核心业务逻辑，如订单创建、库存扣减"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "explanation": "网关是系统的统一门面，适合承担横切关注点：路由转发、认证鉴权（配合 JWT/OAuth2）、限流熔断、日志审计、灰度分流、协议适配等。业务逻辑必须留在各业务服务中，网关掺入业务会使其成为新的耦合点和单体瓶颈，也破坏了职责分离原则（D 错误）。",
-    "tags": ["Gateway", "网关职责"],
+    "tags": [
+      "Gateway",
+      "网关职责"
+    ],
     "difficulty": "easy",
     "chapter": "mod-microservices-architecture-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0005"
+    ],
     "estimated_time": 3
   },
   {
@@ -290,14 +590,34 @@
     "type": "multiple",
     "stem": "关于微服务间通信方式的选型，下列说法正确的有哪些？（多选）",
     "options": [
-      { "key": "A", "text": "同步调用（OpenFeign/REST/gRPC）语义直观，但调用方需等待响应，可用性随调用链变长而下降" },
-      { "key": "B", "text": "通过消息队列异步通信可以削峰填谷、解耦上下游，但引入最终一致性和消息可靠性问题" },
-      { "key": "C", "text": "事件驱动模式下，生产者不需要知道有哪些消费者，便于扩展新订阅方" },
-      { "key": "D", "text": "所有场景都应使用同步调用，异步消息属于过时方案" }
+      {
+        "key": "A",
+        "text": "同步调用（OpenFeign/REST/gRPC）语义直观，但调用方需等待响应，可用性随调用链变长而下降"
+      },
+      {
+        "key": "B",
+        "text": "通过消息队列异步通信可以削峰填谷、解耦上下游，但引入最终一致性和消息可靠性问题"
+      },
+      {
+        "key": "C",
+        "text": "事件驱动模式下，生产者不需要知道有哪些消费者，便于扩展新订阅方"
+      },
+      {
+        "key": "D",
+        "text": "所有场景都应使用同步调用，异步消息属于过时方案"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "explanation": "同步调用简单直观但形成时序耦合，链路可用性是各节点可用性的乘积；MQ 异步化可缓冲流量洪峰、解耦部署与故障，但要处理消息丢失/重复/顺序及最终一致性；事件驱动让新消费者订阅即可接入，无需改动生产者。两类方式各有适用场景（查询实时性强用同步，通知/异步任务/削峰用消息），D 的绝对化说法错误。",
-    "tags": ["服务通信", "消息队列", "事件驱动"],
+    "tags": [
+      "服务通信",
+      "消息队列",
+      "事件驱动"
+    ],
     "difficulty": "medium",
     "chapter": "mod-microservices-architecture-c-1",
     "knowledge_points": [],
@@ -309,17 +629,39 @@
     "type": "multiple",
     "stem": "关于 Sentinel 的流控配置，下列说法正确的有哪些？（多选）",
     "options": [
-      { "key": "A", "text": "流控阈值类型支持 QPS 和并发线程数两种统计维度" },
-      { "key": "B", "text": "流控效果支持快速失败、Warm Up（预热）、排队等待（匀速通过）" },
-      { "key": "C", "text": "Warm Up 适合冷启动场景：阈值从低位逐步爬升到设定值，防止冷系统被瞬时流量打垮" },
-      { "key": "D", "text": "排队等待模式会直接丢弃全部超阈值请求，不做任何缓冲" }
+      {
+        "key": "A",
+        "text": "流控阈值类型支持 QPS 和并发线程数两种统计维度"
+      },
+      {
+        "key": "B",
+        "text": "流控效果支持快速失败、Warm Up（预热）、排队等待（匀速通过）"
+      },
+      {
+        "key": "C",
+        "text": "Warm Up 适合冷启动场景：阈值从低位逐步爬升到设定值，防止冷系统被瞬时流量打垮"
+      },
+      {
+        "key": "D",
+        "text": "排队等待模式会直接丢弃全部超阈值请求，不做任何缓冲"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "explanation": "Sentinel 流控规则由阈值类型（QPS/并发线程数）与流控效果组成。快速失败超限即拒绝；Warm Up 基于令牌桶思想让通过速率在预热时长内逐步上升，保护刚启动、缓存尚冷的系统；排队等待基于漏桶思想让请求匀速通过，超出最大等待时长的才拒绝——它是缓冲而非直接全部丢弃，D 描述的是快速失败。",
-    "tags": ["Sentinel", "流控", "限流策略"],
+    "tags": [
+      "Sentinel",
+      "流控",
+      "限流策略"
+    ],
     "difficulty": "hard",
-    "chapter": "mod-microservices-architecture-c-2",
-    "knowledge_points": [],
+    "chapter": "mod-microservices-architecture-c-3",
+    "knowledge_points": [
+      "ms-kp-0006"
+    ],
     "estimated_time": 4
   },
   {
@@ -328,14 +670,34 @@
     "type": "multiple",
     "stem": "为保障接口幂等性（防止重复提交/消息重复消费造成重复扣款下单），下列哪些是常用手段？（多选）",
     "options": [
-      { "key": "A", "text": "客户端申请全局唯一请求号（如雪花 ID），服务端对已处理的请求号直接返回首次结果" },
-      { "key": "B", "text": "利用数据库唯一索引约束，重复插入订单号时报错拦截" },
-      { "key": "C", "text": "基于状态机流转控制，如仅允许\"待支付→已支付\"，重复支付请求因状态不匹配被拒绝" },
-      { "key": "D", "text": "对非幂等接口配置无限次自动重试，提高成功率" }
+      {
+        "key": "A",
+        "text": "客户端申请全局唯一请求号（如雪花 ID），服务端对已处理的请求号直接返回首次结果"
+      },
+      {
+        "key": "B",
+        "text": "利用数据库唯一索引约束，重复插入订单号时报错拦截"
+      },
+      {
+        "key": "C",
+        "text": "基于状态机流转控制，如仅允许\"待支付→已支付\"，重复支付请求因状态不匹配被拒绝"
+      },
+      {
+        "key": "D",
+        "text": "对非幂等接口配置无限次自动重试，提高成功率"
+      }
     ],
-    "answer": ["A", "B", "C"],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
     "explanation": "幂等三板斧：唯一请求号（token/去重表，Redis setnx 或数据库记录）识别重复请求；数据库唯一索引是最后一道硬约束；状态机保证业务只能沿合法状态流转，天然拒绝重复操作。D 完全相反：对非幂等接口自动重试正是产生重复扣款的根源，重试必须以幂等为前提。在 MQTT/MQ 至少一次投递语义下，消费端幂等尤其重要。",
-    "tags": ["幂等性", "分布式", "可靠性"],
+    "tags": [
+      "幂等性",
+      "分布式",
+      "可靠性"
+    ],
     "difficulty": "medium",
     "chapter": "mod-microservices-architecture-c-3",
     "knowledge_points": [],
@@ -347,12 +709,19 @@
     "type": "judge",
     "stem": "判断：微服务架构提倡\"每个服务拥有自己的数据库\"（Database per Service），其它服务需要数据时应调用其 API 而不是直接连它的库。",
     "options": [],
-    "answer": ["T"],
+    "answer": [
+      "T"
+    ],
     "explanation": "正确。数据库私有化是服务自治的基石：表结构可独立演进、技术选型可异构（如订单用 MySQL、搜索用 ES）、故障隔离。跨服务直连数据库会形成隐性耦合，一改表结构就牵连多个团队，还绕过了服务的业务规则校验。代价是跨服务查询与事务变复杂，需要 API 组合、CQRS 或最终一致性方案配合。",
-    "tags": ["服务拆分", "数据库设计"],
+    "tags": [
+      "服务拆分",
+      "数据库设计"
+    ],
     "difficulty": "easy",
     "chapter": "mod-microservices-architecture-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0010"
+    ],
     "estimated_time": 2
   },
   {
@@ -361,12 +730,20 @@
     "type": "judge",
     "stem": "判断：Spring Cloud Gateway 基于 Spring WebFlux 响应式栈构建，采用非阻塞 IO 模型处理请求。",
     "options": [],
-    "answer": ["T"],
+    "answer": [
+      "T"
+    ],
     "explanation": "正确。Spring Cloud Gateway 构建在 Spring WebFlux + Reactor + Netty 之上，以少量事件循环线程非阻塞地处理大量并发连接，适合网关这种 IO 密集型场景；这也是它取代基于 Servlet 阻塞模型的 Zuul 1.x 的主要原因。注意因此不能在其过滤器中随意执行阻塞操作（如同步 JDBC），否则会阻塞事件循环线程、拖垮整个网关。",
-    "tags": ["Gateway", "WebFlux", "响应式"],
+    "tags": [
+      "Gateway",
+      "WebFlux",
+      "响应式"
+    ],
     "difficulty": "medium",
     "chapter": "mod-microservices-architecture-c-2",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0005"
+    ],
     "estimated_time": 2
   },
   {
@@ -375,12 +752,20 @@
     "type": "judge",
     "stem": "判断：CAP 定理指出，在发生网络分区时，分布式系统必须在一致性（C）与可用性（A）之间做取舍；Nacos 的临时实例注册采用的是偏 AP 的设计。",
     "options": [],
-    "answer": ["T"],
+    "answer": [
+      "T"
+    ],
     "explanation": "正确。CAP 中分区容错 P 是分布式系统的既定事实，分区发生时只能在 C 与 A 中二选一。服务发现场景宁可返回稍旧的实例列表也不能不可用，因此 Nacos 临时实例走 Distro 协议（AP：高可用、最终一致）；而配置管理和持久实例需要强一致，Nacos 采用 Raft 协议（CP）。同理 Eureka 是 AP，ZooKeeper 是 CP。",
-    "tags": ["CAP", "Nacos", "分布式理论"],
+    "tags": [
+      "CAP",
+      "Nacos",
+      "分布式理论"
+    ],
     "difficulty": "hard",
     "chapter": "mod-microservices-architecture-c-3",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0003"
+    ],
     "estimated_time": 3
   },
   {
@@ -389,12 +774,19 @@
     "type": "judge",
     "stem": "判断：只要把单体应用按 Controller、Service、Dao 三层分别部署成三个进程，就完成了微服务改造。",
     "options": [],
-    "answer": ["F"],
+    "answer": [
+      "F"
+    ],
     "explanation": "错误。微服务是按业务能力垂直拆分（订单服务、用户服务、库存服务各含自己的三层与数据），而不是按技术分层水平切开。把技术分层拆成进程后，任何一个业务请求都要跨全部三个进程，形成极端的分布式单体：耦合一点没少，却添加了网络延迟、序列化开销和部署复杂度，是典型的反模式。",
-    "tags": ["服务拆分", "反模式"],
+    "tags": [
+      "服务拆分",
+      "反模式"
+    ],
     "difficulty": "easy",
     "chapter": "mod-microservices-architecture-c-1",
-    "knowledge_points": [],
+    "knowledge_points": [
+      "ms-kp-0010"
+    ],
     "estimated_time": 2
   },
   {
@@ -403,9 +795,14 @@
     "type": "short",
     "stem": "微服务调用链中，下游依赖故障时为防止故障蔓延，会有一个组件统计失败比例并在超阈值后\"跳闸\"，让后续请求快速失败，冷却后进入半开状态试探恢复。请写出这种容错模式的中文名称。",
     "options": [],
-    "answer": ["熔断|熔断器|断路器|熔断降级|断路器模式|熔断机制"],
+    "answer": [
+      "熔断|熔断器|断路器|熔断降级|断路器模式|熔断机制"
+    ],
     "explanation": "答案是熔断（断路器模式，Circuit Breaker）。它有三个状态：关闭（正常放行并统计失败率）、打开（失败率超阈值后直接快速失败，不再调用下游）、半开（冷却期后放少量请求试探，成功则关闭、失败则继续打开）。Sentinel、Resilience4j、Hystrix 都实现了该模式，通常与降级兜底逻辑配合使用。",
-    "tags": ["熔断", "容错模式"],
+    "tags": [
+      "熔断",
+      "容错模式"
+    ],
     "difficulty": "easy",
     "chapter": "mod-microservices-architecture-c-2",
     "knowledge_points": [],
@@ -417,9 +814,14 @@
     "type": "short",
     "stem": "微服务实例动态扩缩容时 IP 端口经常变化，因此需要一个组件：服务启动时把自己的地址登记上去，消费者按服务名查询可用实例列表。请写出这个基础组件的通用名称（4-6 个汉字）。",
     "options": [],
-    "answer": ["注册中心|服务注册中心|服务注册与发现|服务注册发现中心|服务发现"],
+    "answer": [
+      "注册中心|服务注册中心|服务注册与发现|服务注册发现中心|服务发现"
+    ],
     "explanation": "答案是（服务）注册中心，即服务注册与发现组件。服务提供者启动时注册实例信息并维持心跳，下线或失联时被剔除；消费者按服务名订阅实例列表并在本地做负载均衡调用。常见实现：Nacos、Eureka、Consul、ZooKeeper。它解决了动态环境下\"调用方如何找到服务方\"这一微服务最基础的问题。",
-    "tags": ["注册中心", "服务发现"],
+    "tags": [
+      "注册中心",
+      "服务发现"
+    ],
     "difficulty": "easy",
     "chapter": "mod-microservices-architecture-c-3",
     "knowledge_points": [],

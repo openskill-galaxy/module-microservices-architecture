@@ -1,6 +1,7 @@
 {
-  "short_name": "OpenSkill Module",
-  "name": "OpenSkill Galaxy — 学习自测模块",
+  "short_name": "微服务架构与Spring",
+  "name": "OpenSkill Galaxy — 微服务架构与Spring Cloud",
+  "description": "面向Java后端和架构入门学习者的微服务拆分服务注册发现配置中心OpenFeignGatewaySentinel链路追踪分布式事务统一鉴权与部署实战训练。",
   "icons": [
     {
       "src": "favicon.svg",
@@ -8,9 +9,10 @@
       "sizes": "any"
     }
   ],
-  "start_url": ".",
-  "background_color": "#fbfbfd",
-  "theme_color": "#4f46e5",
+  "start_url": "/module-microservices-architecture/",
+  "scope": "/module-microservices-architecture/",
+  "background_color": "#f4f5fa",
+  "theme_color": "#3039c9",
   "display": "standalone",
   "orientation": "portrait"
 }
